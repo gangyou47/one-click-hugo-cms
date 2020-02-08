@@ -13,18 +13,31 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XWAj6PLy7KwUbLrAbGv48UpsCY" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/4_moment" />
+    <property name="last_opened_file_path" value="C:/Hugo/real-gang" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\3_moment\for_git\one-click-hugo-cms\site\layouts\section" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,7 +66,7 @@
       <workItem from="1581165381852" duration="368000" />
       <workItem from="1581166302438" duration="36000" />
       <workItem from="1581166870434" duration="558000" />
-      <workItem from="1581167429660" duration="1709000" />
+      <workItem from="1581167429660" duration="4620000" />
     </task>
     <servers />
   </component>
