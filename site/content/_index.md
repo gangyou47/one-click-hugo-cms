@@ -1,6 +1,6 @@
 ---
 home1_banner:
-  heading: Simplifiez-vous l’après-vente de vos logements
+  heading: Simplifiez-vous l’après-vente de vos logements_1111
   image1: /static/img/2.jpg
   text: >-
     Les TMA peuvent maintenant se faire en ligne, de manière simple et fluide.
