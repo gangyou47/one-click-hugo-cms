@@ -7,13 +7,13 @@ media_folder: "static/img"
 publci_folder: "img"
 
 collections:
-  -name: "homepage"
-   label: "Homepage"
-   folder: "content"
-   create: true
-   slug: "{{year}}-{{slug}}"
-   fields:
-     - {label: "Banner Heading", name: "heading", widget: "string", required: true}
-     - {label: "Banner Text", name: "text", widget: "string"}
-     - {label: "Banner Image", name: "image1", widget: "image"}
+  - name: "homepage"
+    label: "Homepage"
+    folder: "content"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - {label: "Banner Heading", name: "heading", widget: "string", required: true}
+      - {label: "Banner Text", name: "text", widget: "string"}
+      - {label: "Banner Image", name: "image1", widget: "image"}
 
