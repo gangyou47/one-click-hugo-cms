@@ -11,7 +11,7 @@ collections:
     label: "pages"
     files:
       - file: "site/content/_index.md"
-        lavel: "Home Page"
+        label: "Home Page"
         name: "home"
         fields:
           - {label: "Home1_banner", name: home1_banner, widget: object, fields: [
