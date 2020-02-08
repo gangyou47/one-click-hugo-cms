@@ -18,180 +18,18 @@
 
 {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
 
-<!--<nav class="navbar navbar-expand-lg navbar-light bg-light" style="" id="navbar">-->
-<!--    <img src="{{"img/logo.png" | relURL }}" id="logo">-->
+{{ partial "platform1_banner" .Params.platform1_banner }}
 
-<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"-->
-<!--            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--        <span class="navbar-toggler-icon"></span>-->
-<!--    </button>-->
-<!--    <div class="collapse navbar-collapse" id="navbarText">-->
-<!--        <ul class="navbar-nav mr-auto">-->
-<!--            <li class="nav-item active">-->
-<!--                <a class="nav-link navbar_sub_link" href="#">La platforme</a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link navbar_sub_link" href="#">BlOG</a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link navbar_sub_link" href="#">FAQ</a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link navbar_sub_link" href="#">Contact</a>-->
-<!--            </li>-->
-<!--        </ul>-->
-<!--        <img src="{{"img/france_flag.png" | relURL }}" id="language_select">-->
-<!--        <span class="navbar-text" id="nav_connect">-->
-<!--            <a class="navbar_sub_link" href=""> Se connector</a>-->
-<!--         </span>-->
-<!--        <button class="btn btn-dark">Demander une Demo</button>-->
-<!--    </div>-->
-<!--</nav>-->
+{{ partial "platform2_second_banner" .Params.platform2_second_banner }}
 
+{{ partial  "platform3_third_banner" .Params.platform3_third_banner }}
 
-<div class="row" style="" id="platform_banner_section">
-    <div class="col-md-6" id="platform_banner_section_first">
-        <p>Gestion des travaux modificatifs</p>
-        <p style="">Fini le papier et les aller-retours infructueux. Proposez à vos acquéreurs de peronnaliser leur
-            logement de manière indépendante, dans les limites de possibilités que vous avez fixé, depuis chez eux. Leur
-            devis est affiché instantanément</p>
-        <div class="form-group" id="platform_banner_form">
-            <div class="row">
+{{ partial "platform4_three_section" .Params.platform4_three_section }}
 
-                <div class="col-md-12 platform_banner_form">
-                    <button class="btn btn-dark">Demander une Demo</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6" style="text-align: center" id="platform_banner_main_image">
-        <img src="{{"img/platfrorm_banner.png" | relURL }}">
-    </div>
-</div>
+{{ partial "platform5_bottom"  .Params.platform5_bottom }}
 
+{{ partial "footer" }}
 
-<div class="row platform_discuss_section" id="platform_discuss_section_pc">
-    <div class="col-md-6">
-        <img src="{{"img/platform_second_banner.png" | relURL }}">
-    </div>
-    <div class="col-md-6 platform_discuss_section_second">
-        <p>Interface de gestion & communication</p>
-        <p>Contrôlez tout ce qui se passe d’un seul coup d’oeil. Une vue d’ensemble de l’opération, des choix acquéreurs
-            et les plans à jour, les échéances, le planning, les métrés. Transmettez les données utiles à la maitrise
-            d’oeuvre et aux constructeurs</p>
-    </div>
-</div>
-
-
-<div class="row platform_discuss_section" id="platform_discuss_section_mobile">
-
-    <div class="col-md-6 platform_discuss_section_second">
-        <p>Interface de gestion & communication</p>
-        <p>Contrôlez tout ce qui se passe d’un seul coup d’oeil. Une vue d’ensemble de l’opération, des choix acquéreurs
-            et les plans à jour, les échéances, le planning, les métrés. Transmettez les données utiles à la maitrise
-            d’oeuvre et aux constructeurs</p>
-    </div>
-
-    <div class="col-md-6" id="platform_discussion_section_mobile_image">
-        <img src="{{"img/platform_second_banner.png" | relURL }}">
-    </div>
-
-</div>
-
-
-<div class="row platform_discuss_section" id="platform_discuss_section">
-
-    <div class="col-md-6 platform_discuss_section_second">
-        <p>Interface de gestion & communication</p>
-        <p>Contrôlez tout ce qui se passe d’un seul coup d’oeil. Une vue d’ensemble de l’opération, des choix acquéreurs
-            et les plans à jour, les échéances, le planning, les métrés. Transmettez les données utiles à la maitrise
-            d’oeuvre et aux constructeurs</p>
-    </div>
-    <div class="col-md-6" id="platform_discuss_section_second">
-        <img src="{{"img/platform_third_banner.png" | relURL }}">
-    </div>
-</div>
-
-
-<div class="row" style="" id="platform_tma_section">
-    <div class="col-md-4">
-        <img src="{{"img/tma_1.png" | relURL }}">
-        <p>Un accompagnement personnalisé </p>
-        <p>Lors des premières utilisations de notre plateforme, nous serons là pour vous aider à ce que ce soit un
-            succès.</p>
-    </div>
-    <div class="col-md-4">
-        <img src="{{"img/tma_2.png" | relURL }}">
-        <p>Intégration parfaite </p>
-        <p>Nous pouvons nous intégrer aux procédures et logiciels mises en place avec vos services informatiques.</p>
-    </div>
-    <div class="col-md-4">
-        <img src="{{"img/tma_3.png" | relURL }}">
-        <p>100% Sécurisé </p>
-        <p>Nous pouvons nous intégrer aux procédures et logiciels mises en place avec vos services informatiques.</p>
-    </div>
-</div>
-
-
-<div class="row" id="contactus_section" style="">
-    <div class="col-md-8">
-        <p style="">Prêt à vous lancer ? </p>
-        <p> Contactez-nous ou demandez une démonstration</p>
-    </div>
-    <div class="col-md-4">
-        <button class="btn btn-dark">Demander une Demo</button>
-    </div>
-</div>
-
-
-<div class="footer">
-
-    <div class="row" id="footer_logo_div">
-        <div class="col-md-3">
-            <img src="{{"img/logo.png" | relURL }}" id="footer_logo">
-            <p style="float: right;" class="show_in_mobile">
-                <i class="fa fa-envelope"></i>
-                <i class="fa fa-phone"></i>
-            </p>
-
-        </div>
-        <div class="col-md-9">
-            <button class="btn btn-default button_for_hide"><i class="fa fa-envelope"></i> Demander une Demo</button>
-            <button class="btn btn-default button_for_hide"><i class="fa fa-phone"></i>Demander une Demo</button>
-        </div>
-    </div>
-
-    <div class="row" style="" id="footer_link_div">
-        <div class="col-12 col-sm-12 col-md-3">
-            <p style=>Suivez-nous</p>
-
-            <i class="fa fa-facebook-square "></i>
-            <i class="fa fa-instagram "></i>
-            <i class="fa fa-twitter "></i>
-            <i class="fa fa-linkedin-square"></i>
-            <i class="fa fa-youtube-play"></i>
-        </div>
-        <div class="col -6 col-sm-6 col-md-3">
-            <p style=>Suivez-nous</p>
-            <a href="#">sample link</a><br>
-            <a href="#">sample link</a><br>
-
-        </div>
-        <div class="col-6  col-sm-6 col-md-3">
-            <p style=>Suivez-nous</p>
-            <a href="#">sample link</a><br>
-            <a href="#">sample link</a><br>
-            <a href="#">sample link</a><br>
-        </div>
-        <div class="col-6 col-sm-6 col-md-3 ">
-            <p style=>Suivez-nous</p>
-            <a href="#">sample link</a><br>
-            <a href="#">sample link</a><br>
-
-        </div>
-    </div>
-
-</div>
 
 </body>
 </html>
