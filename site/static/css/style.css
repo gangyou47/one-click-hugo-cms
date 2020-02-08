@@ -1,0 +1,905 @@
+#logo{
+    width: 150px;
+    height: 40px;
+    padding-bottom: 5px;
+}
+.navbar{
+    margin: 30px 88px 0 88px;
+    background-color: white!important;
+    font-size: 13px;
+
+}
+.navbar_sub_link{
+    color: #455F8E!important;
+}
+
+#language_select{
+    width: 21px;
+    height: 21px;
+}
+
+#nav_connect{
+    margin: 0 40px
+}
+
+
+.navbar div ul li a{
+    color: #455F8E;
+}
+#banner_section{
+    margin: 100px 88px 80px 88px;
+}
+
+#banner_section_first{
+    margin-top: 50px
+}
+
+.banner_form button{
+
+    height: 50px;
+}
+
+#banner_main_image img{
+    max-width:100%;max-height:100%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+}
+
+.banner_form input{
+    border: 1px solid white!important;;
+    box-shadow: 2px 2px 2px lightgrey;
+    height: 50px;
+}
+
+#banner_section{
+    color: #2D3446;
+}
+#banner_section div p:first-of-type{
+
+    color: #2D3446;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.banner_form{
+    margin-top: 30px;
+}
+
+#banner_section div p:nth-child(2){
+    color: #2D3446;
+
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#tma_section{
+    margin: 200px 88px 80px 88px;
+    color: #2D3446;
+}
+
+#tma_section div p:first-of-type{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#tma_section div img{
+    width: 37px;
+    height: 37px;
+}
+
+
+
+#third_section{
+    margin: 200px 0 0 0 ;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#third_section div p:first-of-type{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+#third_section div p:nth-child(2){
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    opacity: 0.75;
+}
+
+#discuss_section{
+    margin:75px 0 0 0;
+}
+
+#discuss_section >div:first-of-type{
+    text-align: center;
+    padding: 0
+}
+
+#discuss_section >div:first-of-type img{
+    max-width:100%;max-height:100%;
+}
+
+#right_discussion_section{
+    padding: 50px 88px
+}
+
+#right_discussion_section div div div h5 button{
+    color:  #2D3446;
+    background-color: white;
+}
+
+#right_discussion_section div div div h5 i{
+    float: right;
+    color: grey;
+}
+.card{
+
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+}
+
+.card_actived{
+    border-top: 2px solid red;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.card-header{
+    background-color: white;
+    border-bottom:  1px solid white;
+}
+
+
+
+.card-body{
+    color:  #2D3446;
+}
+
+
+
+#fourth_section{
+    margin: 200px 0 0 0 ;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#fourth_section div p:first-of-type{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+#fourth_section div p:nth-child(2){
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    opacity: 0.75;
+}
+
+#link_section{
+    margin: 150px 0; padding: 0;
+    color:  #2D3446;
+}
+.sub_link_section p:first-of-type {
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.link_section_text {
+
+    color: rgba(45,52,70,0.5);
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+#link_section div img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+
+}
+
+.sub_link_section{
+    padding: 0 88px
+}
+.sub_link_section div div p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #F3A089;
+    font-weight: 400!important;
+
+}
+
+#contactus_section{
+    margin: 0;
+    padding: 50px 88px;
+    height: 222px;
+    background-color:        #F3A089;
+}
+
+#contactus_section  >div:first-of-type{
+    font-size: 32px;	line-height: 40px;
+    padding: 0 56px 0 56px
+}
+#contactus_section  >div:first-of-type p:first-of-type{
+    color: white
+}
+#contactus_section div button{
+    margin-top: 30px;
+    height: 50px;
+}
+
+.footer{
+    padding: 50px 0;
+    color: #2D3446;
+}
+#footer_logo{
+    width: 145px;
+    height: 30px;
+}
+
+#footer_logo_div{
+    margin: 0 140px 20px 140px;
+}
+#footer_logo_div div button{
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+    margin-right: 20px;
+}
+#footer_logo_div div button i{
+    margin-right: 10px;
+
+}
+
+#footer_link_div{
+    margin: 0 140px;color: #2D3446
+}
+
+#footer_link_div div i{
+
+    margin-right: 15px;
+}
+#footer_link_div div p{
+    color: #2D3446;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.show_in_mobile{
+    display: none;
+}
+
+
+
+#footer_link_div div a{
+    color: #2D3446;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1150px) {
+    #logo{
+        width: 150px;
+        height: 40px;
+        padding-bottom: 5px;
+    }
+    .navbar{
+        margin: 30px 0 0 0;
+        background-color: white!important;
+        font-size: 13px;
+
+    }
+    .navbar_sub_link{
+        color: #455F8E!important;
+    }
+
+    #language_select{
+        width: 21px;
+        height: 21px;
+    }
+
+    #nav_connect{
+        margin: 0 40px
+    }
+
+
+    .navbar div ul li a{
+        color: #455F8E;
+    }
+    #banner_section{
+        margin: 0 10px;
+    }
+
+    #banner_section_first{
+        margin-top: 50px
+    }
+
+    .banner_form button{
+
+        height: 50px;
+    }
+
+    #banner_main_image img{
+        max-width:100%;max-height:100%;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+    }
+
+    .banner_form input{
+        border: 1px solid white!important;;
+        box-shadow: 2px 2px 2px lightgrey;
+        height: 50px;
+    }
+
+    #banner_section{
+        color: #2D3446;
+    }
+    #banner_section div p:first-of-type{
+
+        color: #2D3446;
+        font-size: 37px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .banner_form{
+        margin-top: 30px;
+    }
+
+    #banner_section div p:nth-child(2){
+        color: #2D3446;
+
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #tma_section{
+        margin: 50px 10px;
+        color: #2D3446;
+    }
+
+    #tma_section div{
+        margin-top: 30px;
+    }
+
+    #tma_section div p:first-of-type{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    #tma_section div img{
+        width: 37px;
+        height: 37px;
+    }
+
+
+
+    #third_section{
+        margin: 70px 10px 30px 10px;
+        text-align: center;
+        padding:0;
+    }
+
+    #third_section div p:first-of-type{
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    #third_section div p:nth-child(2){
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        opacity: 0.75;
+    }
+
+    #discuss_section{
+        margin:35px 0 0 0;
+    }
+
+    #discuss_section >div:first-of-type{
+        text-align: center;
+        padding: 0
+    }
+
+    #discuss_section >div:first-of-type img{
+        max-width:100%;max-height:100%;
+    }
+
+    #right_discussion_section{
+        padding: 50px 10px;
+    }
+
+    #right_discussion_section div div div h5 button{
+        color:  #2D3446;
+        background-color: white;
+    }
+
+    #right_discussion_section div div div h5 i{
+        float: right;
+        color: grey;
+    }
+    .card{
+
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+
+    }
+
+    .card_actived{
+        border-top: 2px solid red;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    }
+    .card-header{
+        background-color: white;
+        border-bottom:  1px solid white;
+    }
+
+
+
+    .card-body{
+        color:  #2D3446;
+    }
+
+
+
+    #fourth_section{
+        margin: 50px 10px 0 10px ;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #fourth_section div p:first-of-type{
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    #fourth_section div p:nth-child(2){
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        opacity: 0.75;
+    }
+
+    #link_section{
+        margin: 30px 20px; padding: 0;
+        color:  #2D3446;
+    }
+    .sub_link_section p:first-of-type {
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+
+    .link_section_text {
+
+        color: rgba(45,52,70,0.5);
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 25px;
+    }
+
+    #link_section div img{
+        width: 35px;
+        height: 35px;
+        margin-bottom: 10px;
+
+    }
+
+    .sub_link_section{
+        padding: 0;
+    }
+    .sub_link_section div div p{
+        font-size: 16px;
+        line-height: 18px;
+        color: #F3A089;
+        font-weight: 400!important;
+
+    }
+    .sub_link_section_m{
+        margin-top: 30px;
+    }
+
+
+
+    #contactus_section{
+        margin: 0 10px;
+        padding: 40px 0;
+        height: 222px;
+        background-color:        #F3A089;
+        text-align: center;
+    }
+
+    #contactus_section  >div:first-of-type{
+        font-size: 24px;
+        line-height: 20px;
+        padding: 0 56px 0 56px
+    }
+    #contactus_section  >div:first-of-type p:first-of-type{
+        color: white
+    }
+    #contactus_section div button{
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .footer{
+        padding: 50px 0;
+        color: #2D3446;
+    }
+    #footer_logo{
+        width: 145px;
+        height: 30px;
+    }
+
+    #footer_logo_div{
+        margin: 0 10px 0 10px;
+    }
+    #footer_logo_div div button{
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+        margin-right: 20px;
+    }
+    #footer_logo_div div button i{
+        margin-right: 10px;
+
+    }
+    .button_for_hide{
+        display: none;
+    }
+    .show_in_mobile{
+        display: block;
+    }
+    .show_in_mobile i{
+        margin-right: 20px;
+    }
+
+    #footer_link_div{
+        margin: 0 10px;color: #2D3446
+    }
+
+    #footer_link_div div i{
+
+        margin-right: 15px;
+    }
+    #footer_link_div div p{
+        color: #2D3446;
+
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+
+    #footer_link_div div a{
+        color: #2D3446;
+
+    }
+    #footer_link_div div{
+        margin-top: 25px;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+    #logo{
+        width: 150px;
+        height: 40px;
+        padding-bottom: 5px;
+    }
+    .navbar{
+        margin: 30px 0 0 0;
+        background-color: white!important;
+        font-size: 13px;
+
+    }
+    .navbar_sub_link{
+        color: #455F8E!important;
+    }
+
+    #language_select{
+        width: 21px;
+        height: 21px;
+    }
+
+    #nav_connect{
+        margin: 0 40px
+    }
+
+
+    .navbar div ul li a{
+        color: #455F8E;
+    }
+    #banner_section{
+        margin: 0 10px;
+    }
+
+    #banner_section_first{
+        margin-top: 50px
+    }
+
+    .banner_form button{
+
+        height: 50px;
+    }
+
+    #banner_main_image img{
+        max-width:100%;max-height:100%;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+    }
+
+    .banner_form input{
+        border: 1px solid white!important;;
+        box-shadow: 2px 2px 2px lightgrey;
+        height: 50px;
+    }
+
+    #banner_section{
+        color: #2D3446;
+    }
+    #banner_section div p:first-of-type{
+
+        color: #2D3446;
+        font-size: 37px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .banner_form{
+        margin-top: 30px;
+    }
+
+    #banner_section div p:nth-child(2){
+        color: #2D3446;
+
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #tma_section{
+        margin: 50px 10px;
+        color: #2D3446;
+    }
+
+    #tma_section div{
+        margin-top: 30px;
+    }
+
+    #tma_section div p:first-of-type{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    #tma_section div img{
+        width: 37px;
+        height: 37px;
+    }
+
+
+
+    #third_section{
+        margin: 70px 10px 30px 10px;
+        text-align: center;
+        padding:0;
+    }
+
+    #third_section div p:first-of-type{
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    #third_section div p:nth-child(2){
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        opacity: 0.75;
+    }
+
+    #discuss_section{
+        margin:35px 0 0 0;
+    }
+
+    #discuss_section >div:first-of-type{
+        text-align: center;
+        padding: 0
+    }
+
+    #discuss_section >div:first-of-type img{
+        max-width:100%;max-height:100%;
+    }
+
+    #right_discussion_section{
+        padding: 50px 10px;
+    }
+
+    #right_discussion_section div div div h5 button{
+        color:  #2D3446;
+        background-color: white;
+    }
+
+    #right_discussion_section div div div h5 i{
+        float: right;
+        color: grey;
+    }
+    .card{
+
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+
+    }
+
+    .card_actived{
+        border-top: 2px solid red;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    }
+    .card-header{
+        background-color: white;
+        border-bottom:  1px solid white;
+    }
+
+
+
+    .card-body{
+        color:  #2D3446;
+    }
+
+
+
+    #fourth_section{
+        margin: 50px 10px 0 10px ;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #fourth_section div p:first-of-type{
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    #fourth_section div p:nth-child(2){
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        opacity: 0.75;
+    }
+
+    #link_section{
+        margin: 30px 20px; padding: 0;
+        color:  #2D3446;
+    }
+    .sub_link_section p:first-of-type {
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+
+    .link_section_text {
+
+        color: rgba(45,52,70,0.5);
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 25px;
+    }
+
+    #link_section div img{
+        width: 35px;
+        height: 35px;
+        margin-bottom: 10px;
+
+    }
+
+    .sub_link_section{
+        padding: 0;
+    }
+    .sub_link_section div div p{
+        font-size: 16px;
+        line-height: 18px;
+        color: #F3A089;
+        font-weight: 400!important;
+
+    }
+    .sub_link_section_m{
+        margin-top: 30px;
+    }
+
+
+
+    #contactus_section{
+        margin: 0 10px;
+        padding: 40px 0;
+        height: 222px;
+        background-color:        #F3A089;
+        text-align: center;
+    }
+
+    #contactus_section  >div:first-of-type{
+        font-size: 24px;
+        line-height: 20px;
+        padding: 0 56px 0 56px
+    }
+    #contactus_section  >div:first-of-type p:first-of-type{
+        color: white
+    }
+    #contactus_section div button{
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .footer{
+        padding: 50px 0;
+        color: #2D3446;
+    }
+    #footer_logo{
+        width: 145px;
+        height: 30px;
+    }
+
+    #footer_logo_div{
+        margin: 0 10px 0 10px;
+    }
+    #footer_logo_div div button{
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+        margin-right: 20px;
+    }
+    #footer_logo_div div button i{
+        margin-right: 10px;
+
+    }
+    .button_for_hide{
+        display: none;
+    }
+    .show_in_mobile{
+        display: block;
+    }
+    .show_in_mobile i{
+        margin-right: 20px;
+    }
+
+    #footer_link_div{
+        margin: 0 10px;color: #2D3446
+    }
+
+    #footer_link_div div i{
+
+        margin-right: 15px;
+    }
+    #footer_link_div div p{
+        color: #2D3446;
+
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+
+    #footer_link_div div a{
+        color: #2D3446;
+
+    }
+    #footer_link_div div{
+        margin-top: 25px;
+    }
+
+}

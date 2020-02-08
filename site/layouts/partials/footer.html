@@ -1,53 +1,56 @@
-<footer class="bg-black ph3 pv4 white">
+<div class="footer">
 
-	<div class="mw7 center pt3">
+     <div class="row"  id="footer_logo_div">
+          <div class="col-md-3">
+               <img  id="footer_logo" src="img/logo.png" >
+               <p style="float: right;" class="show_in_mobile">
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-phone"></i>
+               </p>
 
-		<div class="measure-narrow center mb4">
+          </div>
+          <div class="col-md-9">
+               <button class="btn btn-default button_for_hide"  ><i class="fa fa-envelope"></i>  Demander une Demo</button>
+               <button class="btn btn-default button_for_hide" ><i class="fa fa-phone"></i>Demander une Demo</button>
+          </div>
+     </div>
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
+     <div class="row" style="" id="footer_link_div">
+          <div class="col-12 col-sm-12 col-md-3">
+               <p style=>Suivez-nous</p>
 
-			{{ partial "newsletter-form" . }}
+               <i class="fa fa-facebook-square "></i>
+               <i class="fa fa-instagram "></i>
+               <i class="fa fa-twitter "></i>
+               <i class="fa fa-linkedin-square"></i>
+               <i class="fa fa-youtube-play"></i>
+          </div>
+          <div class="col -6 col-sm-6 col-md-3" >
+               <p style=>Suivez-nous</p>
+               <a href="#">sample link</a><br>
+               <a href="#">sample link</a><br>
 
-		</div>
+          </div>
+          <div class="col-6  col-sm-6 col-md-3">
+               <p style=>Suivez-nous</p>
+               <a href="#">sample link</a><br>
+               <a href="#">sample link</a><br>
+               <a href="#">sample link</a><br>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 ">
+               <p style=>Suivez-nous</p>
+               <a href="#">sample link</a><br>
+               <a href="#">sample link</a><br>
 
-		<div class="flex-ns justify-between">
+          </div>
+     </div>
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
+</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
 
-		</div>
-	</div>
 
-</footer>
-
-{{ partial "svg" . }}
-
-<script src="/app.js"></script>
+<!--<div style="height:35px;"></div>-->
+<!--<div style=" position:fixed; color: white; height:35px; background-color:#757575; bottom:0px; text-align:center; width:99%">-->
+<!--     <p style="margin:10px; "><a style="color: white; " target="_blank" href="http://www.giraffeacademy.com/">Giraffe Academy</a> - Hugo Theme</p>-->
+<!--</div>-->

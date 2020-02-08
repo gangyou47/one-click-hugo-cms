@@ -1,20 +1,57 @@
 ---
 title: "Great coffee with a conscience"
 subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
-blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
-intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
----
+image: /img/discuss.png
 
+home1_banner:
+    heading : Simplifiez-vous l’après-vente de vos logements
+    text : Les TMA peuvent maintenant se faire en ligne, de manière simple et fluide. Gérez les simplement.  Améliorez l’expérience de vos clients
+    image1 : /img/group12.svg
+home2_three:
+    image21: /img/tma_1.png
+    heading21: Gestion intelligente des TMA
+    text21: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh  finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet
+    image22: /img/tma_2.png
+    heading22: Gestion intelligente des TMA
+    text22: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet
+    image23: /img/tma_3.png
+    heading23: Gestion intelligente des TMA
+    text23: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet
+home3_improve:
+    heading31: Améliorez l’expérience d’achat 
+    text31: LOGEMENT 3D est une plateforme collaborative qui permet de simplifier les interactions entre les acteurs d’un chantier de logement neuf  acquéreur, promoteur, maitrise d’oeuvre et constructeurs
+home4_discuss:
+    image41: /img/discuss1.png
+    heading41:  Améliorez l’expérience client
+    text41: Les acquéreurs se sentent délaissés entre la signature du contrat de réservation et la livraison.
+                                    Offrez-leur un compte personnel où ils peuvent personnaliser leur logement et suivre sa construction.
+    heading42:  Gagnez du temps
+    text42: Les acquéreurs se sentent délaissés entre la signature du contrat de réservation et la livraison.
+                                    Offrez-leur un compte personnel où ils peuvent personnaliser leur logement et suivre sa construction.
+    heading43:  Évitez les erreurs
+    text43: Les acquéreurs se sentent délaissés entre la signature du contrat de réservation et la livraison.
+                                    Offrez-leur un compte personnel où ils peuvent personnaliser leur logement et suivre sa construction.
+    heading44:  Vendez plus vite
+    text44: Les acquéreurs se sentent délaissés entre la signature du contrat de réservation et la livraison.
+                                    Offrez-leur un compte personnel où ils peuvent personnaliser leur logement et suivre sa construction.
+    heading45: Utilisez vos données
+    text45: Les acquéreurs se sentent délaissés entre la signature du contrat de réservation et la livraison.
+                                    Offrez-leur un compte personnel où ils peuvent personnaliser leur logement et suivre sa construction.
+    heading46: Construisez plus vite
+    text46: Les acquéreurs se sentent délaissés entre la signature du contrat de réservation et la livraison.
+                                    Offrez-leur un compte personnel où ils peuvent personnaliser leur logement et suivre sa construction.
+home5_experience:
+    heading51: Une expérience d’achat moderne
+    text51: Remplacer les échanges chronophases avec vos équipes en montrant à vos acquéreurs une maquette 3D au lieu d’un
+                        plan papier, et laissez-les la personnaliser de manière autonome.
+home6_cubic:
+    heading61: Avec Plans de vente papier
+    text61: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo.
+    heading62: Avec Plans de vente papier
+    text62: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo.
+    image61: /img/3D.svg
+    image62: /img/3D.svg
+home7_bottom:
+    heading71: Prêt à vous lancer ?
+    text71: Contactez-nous ou demandez une démonstration
+---
