@@ -4,7 +4,7 @@ backend:
 
 
 media_folder: "site/static/img"
-publci_folder: "img"
+public_folder: "img"
 
 collections:
   - name: "page"

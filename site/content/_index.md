@@ -9,7 +9,7 @@ home2_three:
   heading21: Gestion intelligente des TMA
   heading22: Gestion intelligente des TMA
   heading23: Gestion intelligente des TMA
-  image21: /site/static/img/android-chrome-512x512.png
+  image21: /img/android-chrome-512x512.png
   image22: /img/tma_2.png
   image23: /img/tma_3.png
   text21: >-
