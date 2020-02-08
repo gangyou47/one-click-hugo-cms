@@ -13,7 +13,7 @@ collections:
     create: true
     slug: "{{year}}-{{slug}}"
     fields:
-      - {label: "Banner Heading", name: "heading", widget: "string", required: true}
-      - {label: "Banner Text", name: "text", widget: "string"}
-      - {label: "Banner Image", name: "image1", widget: "image"}
+      - {label: "Banner Heading", name: "title", widget: "string", required: true}
+      - {label: "Banner Text", name: "subtitle", widget: "string"}
+
 
