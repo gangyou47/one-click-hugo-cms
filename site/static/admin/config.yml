@@ -14,5 +14,7 @@ collections:
         lavel: "Home Page"
         name: "home"
         fields:
-          - {label: "Banner Heading", name: "title", widget: "string"}
+          - {label: "Home1_banner", name: home1_banner, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
 
