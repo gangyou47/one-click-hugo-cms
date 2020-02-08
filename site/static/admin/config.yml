@@ -78,7 +78,6 @@ collections:
             {label: "Heading41", name: "heading41", widget: string},
             {label: "Text41", name: "text41", widget: "text"},
             {label: "Image41", name: "image41", widget: "image"},
-            {label: "Image41", name: "image41", widget: "image"},
             {label: "Heading42", name: "heading42", widget: string},
             {label: "Text42", name: "text42", widget: "text"},
             {label: "Image42", name: "image42", widget: "image"},
@@ -88,5 +87,24 @@ collections:
           - {label: "platform5_bottom", name: platform5_bottom, widget: object, fields: [
             {label: "Heading5", name: "heading5", widget: string},
             {label: "Text5", name: "text5", widget: "text"}]}
+      - file: "site/content/faq/_index.md"
+        label: "FAQ Page"
+        name: "faq"
+        fields:
+          - {label: "Faq2_faq", name: faq2_faq, widget: object, fields: [
+            {label: "Heading21", name: "heading21", widget: string},
+            {label: "Text21", name: "text21", widget: "text"},
+            {label: "Heading22", name: "heading22", widget: string},
+            {label: "Text22", name: "text22", widget: "text"},
+            {label: "Heading23", name: "heading23", widget: string},
+            {label: "Text23", name: "text23", widget: "text"},
+            {label: "Heading24", name: "heading24", widget: string},
+            {label: "Text24", name: "text24", widget: "text"},
+            {label: "Heading25", name: "heading25", widget: string},
+            {label: "Text25", name: "text25", widget: "text"},
+            {label: "Heading26", name: "heading26", widget: string},
+            {label: "Text26", name: "text26", widget: "text"},
+            {label: "Heading27", name: "heading27", widget: string},
+            {label: "Text27", name: "text27", widget: "text"}]}
 
 
