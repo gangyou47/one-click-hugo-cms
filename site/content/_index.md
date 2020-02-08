@@ -1,7 +1,7 @@
 ---
 home1_banner:
   heading: Simplifiez-vous l’après-vente de vos logements_1111
-  image1: /static/img/2.jpg
+  image1: /static/img/02_Today_Air_Pollution_Mask_0.jpg
   text: >-
     Les TMA peuvent maintenant se faire en ligne, de manière simple et fluide.
     Gérez les simplement.  Améliorez l’expérience de vos clients
