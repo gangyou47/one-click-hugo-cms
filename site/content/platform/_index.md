@@ -27,7 +27,7 @@ platform4_three_section:
   heading41: Un accompagnement personnalisé
   heading42: Intégration parfaite
   heading43: 100% Sécurisé
-  image41: img/3D.svg
+  image41: img/tma_1.png
   image42: /img/tma_2.png
   image43: /img/tma_3.png
   text41: >-
