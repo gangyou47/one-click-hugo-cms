@@ -23,6 +23,7 @@ collections:
         widget: "list"
         allow_add: true
         fields:
+          - {label: "Subheading", name: "subheading", widget: string}
           - label: "All List"
             name: "all_list"
             widget: "list"
