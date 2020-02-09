@@ -17,8 +17,20 @@ collections:
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["news"]}
-      - {label: "Subheading", name: "subheading", widget: string, allow_add: true}
+      - {label: "Subheading", name: "subheading", widget: "list", allow_add: true}
       - {label: "Subheading Text", name: "subtext", widget: "text" , allow_add: true}
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        allow_add: true
+        fields:
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string, default: "Emmet"}
+              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
   - name: "page"
     label: "pages"
     files:
