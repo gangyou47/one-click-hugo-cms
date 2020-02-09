@@ -11,9 +11,1733 @@
      <script type="text/javascript"
              src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
+
+
+<style>
+     /*this is side nab part*/
+     .sidenav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #F3A089;
+          overflow-x: hidden;
+          transition: 0.3s;
+          padding-top: 60px;
+          color: white;
+     }
+
+     .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 20px;
+          color: white;
+          display: block;
+          transition: 0.3s;
+     }
+
+     .sidenav a:hover {
+          color: #f1f1f1;
+     }
+
+     .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 45px;
+          font-size: 36px;
+          margin-left: 30px;
+     }
+
+     #main {
+          transition: margin-left .5s;
+          padding: 16px;
+          display: none;
+     }
+
+     @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+     }
+
+
+
+
+     /*This is homepage part*/
+
+     #logo{
+          width: 150px;
+          height: 40px;
+          padding-bottom: 5px;
+     }
+     .navbar{
+          margin: 30px 88px 0 88px;
+          background-color: white!important;
+          font-size: 13px;
+
+     }
+     .navbar_sub_link{
+          color: #455F8E!important;
+     }
+
+     #language_select{
+          width: 21px;
+          height: 21px;
+     }
+
+     #nav_connect{
+          margin: 0 40px
+     }
+
+
+     .navbar div ul li a{
+          color: #455F8E;
+     }
+
+
+
+     #banner_section{
+          margin: 100px 88px 80px 88px;
+     }
+
+     #banner_section_first{
+          margin-top: 50px
+     }
+
+     .banner_form button{
+
+          height: 50px;
+     }
+
+     #banner_main_image img{
+          max-width:100%;max-height:100%;
+          box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+     }
+
+     .banner_form input{
+          border: 1px solid white!important;;
+          box-shadow: 2px 2px 2px lightgrey;
+          height: 50px;
+     }
+
+     #banner_section{
+          color: #2D3446;
+     }
+     #banner_section div p:first-of-type{
+
+          color: #2D3446;
+          font-size: 46px;
+          font-weight: 500;
+          line-height: 54px;
+     }
+
+     .banner_form{
+          margin-top: 30px;
+     }
+
+     #banner_section div p:nth-child(2){
+          color: #2D3446;
+
+          font-size: 18px;
+          line-height: 27px;
+     }
+
+     #tma_section{
+          margin: 200px 88px 80px 88px;
+          color: #2D3446;
+     }
+
+     #tma_section div p:first-of-type{
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 20px;
+     }
+     #tma_section div img{
+          width: 37px;
+          height: 37px;
+     }
+
+
+
+     #third_section{
+          margin: 200px 0 0 0 ;
+          text-align: center;
+          padding-left: 15%;
+          padding-right: 15%;
+     }
+
+     #third_section div p:first-of-type{
+          font-size: 32px;
+          line-height: 38px;
+          text-align: center;
+     }
+
+     #third_section div p:nth-child(2){
+          font-size: 18px;
+          line-height: 27px;
+          text-align: center;
+          opacity: 0.75;
+     }
+
+     #discuss_section{
+          margin:75px 0 0 0;
+     }
+
+     #discuss_section >div:first-of-type{
+          text-align: center;
+          padding: 0
+     }
+
+     #discuss_section >div:first-of-type img{
+          max-width:100%;max-height:100%;
+     }
+
+     #right_discussion_section{
+          padding: 50px 88px
+     }
+
+     #right_discussion_section div div div h5 button{
+          color:  #2D3446;
+          background-color: white;
+     }
+
+     #right_discussion_section div div div h5 i{
+          float: right;
+          color: grey;
+     }
+     .card{
+
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+
+     }
+
+     .card_actived{
+          border-top: 4px solid #F3A089;
+          margin-bottom: 8px;
+          padding-bottom: 20px;
+          box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+     }
+     .card-header{
+          background-color: white;
+          border-bottom:  1px solid white;
+     }
+
+
+
+     .card-body{
+          color:  #2D3446;
+     }
+
+
+
+     #fourth_section{
+          margin: 200px 0 0 0 ;
+          text-align: center;
+          padding-left: 15%;
+          padding-right: 15%;
+     }
+
+     #fourth_section div p:first-of-type{
+          font-size: 32px;
+          line-height: 38px;
+          text-align: center;
+     }
+
+     #fourth_section div p:nth-child(2){
+          font-size: 18px;
+          line-height: 27px;
+          text-align: center;
+          opacity: 0.75;
+     }
+
+     #link_section{
+          margin: 150px 0; padding: 0;
+          color:  #2D3446;
+     }
+     .sub_link_section p:first-of-type {
+
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 21px;
+     }
+
+     .link_section_text {
+
+          color: rgba(45,52,70,0.5);
+          font-size: 16px;
+          line-height: 23px;
+          margin-bottom: 25px;
+     }
+
+     #link_section div img{
+          width: 35px;
+          height: 35px;
+          margin-bottom: 10px;
+
+     }
+
+     .sub_link_section{
+          padding: 0 88px
+     }
+     .sub_link_section div div p{
+          font-size: 18px;
+          line-height: 24px;
+          color: #F3A089;
+          font-weight: 400!important;
+
+     }
+
+     #contactus_section{
+          margin: 0;
+          padding: 50px 88px;
+          height: 222px;
+          background-color:        #F3A089;
+     }
+
+     #contactus_section  >div:first-of-type{
+          font-size: 32px;	line-height: 40px;
+          padding: 0 56px 0 56px
+     }
+     #contactus_section  >div:first-of-type p:first-of-type{
+          color: white
+     }
+     #contactus_section div button{
+          margin-top: 30px;
+          height: 50px;
+     }
+
+     .footer{
+          padding: 50px 0;
+          color: #2D3446;
+     }
+     #footer_logo{
+          width: 145px;
+          height: 30px;
+     }
+
+     #footer_logo_div{
+          margin: 0 140px 20px 140px;
+     }
+     #footer_logo_div div button{
+          box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+          margin-right: 20px;
+     }
+     #footer_logo_div div button i{
+          margin-right: 10px;
+
+     }
+
+     #footer_link_div{
+          margin: 0 140px;color: #2D3446
+     }
+
+     #footer_link_div div i{
+
+          margin-right: 15px;
+     }
+     #footer_link_div div p{
+          color: #2D3446;
+
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19px;
+     }
+
+     .show_in_mobile{
+          display: none;
+     }
+
+
+
+     #footer_link_div div a{
+          color: #2D3446;
+
+     }
+
+
+     /*Here is platform part*/
+
+
+
+
+     #platform_banner_section{
+          margin: 100px 88px 80px 88px;
+     }
+
+     #platform_banner_section_first{
+          margin-top: 100px
+     }
+
+     .platform_banner_form button{
+
+          height: 50px;
+     }
+
+     #platform_banner_main_image img{
+          max-width:100%;max-height:100%;
+          /*box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;*/
+
+     }
+
+     #platform_banner_section{
+          color: #2D3446;
+     }
+     #platform_banner_section div p:first-of-type{
+          color: #2D3446;
+          font-size: 32px;	line-height: 38px;
+     }
+
+
+
+     #platform_banner_section div p:nth-child(2){
+          opacity: 0.75;	color: #2D3446;		font-size: 18px;	line-height: 27px;
+     }
+
+
+
+     .platform_discuss_section{
+          margin: 150px 0 0 0 ;
+          color: #2D3446;
+     }
+
+     .platform_discuss_section >div:first-of-type img{
+          max-width:100%;max-height:100%;
+
+     }
+     .platform_discuss_section_second{
+          padding: 0 56px;
+     }
+
+     .platform_discuss_section_second p:first-of-type{
+          font-size: 32px;
+          line-height: 38px;
+          margin-top: 120px;
+
+     }
+
+     .platform_discuss_section_second p:nth-child(2){
+          opacity: 0.75;
+          color: #2D3446;
+          font-size: 18px;
+          line-height: 27px;
+     }
+
+     #platform_discuss_section_second img{
+          max-width:100%;max-height:100%;
+
+     }
+
+
+     #platform_tma_section{
+          margin: 200px 88px 120px 88px;
+          color: #2D3446;
+     }
+
+     #platform_tma_section div p:first-of-type{
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 20px;
+     }
+     #platform_tma_section div img{
+          width: 37px;
+          height: 37px;
+     }
+
+     #platform_discuss_section_mobile{
+          display: none;
+     }
+
+
+
+
+     /*blog page is from here*/
+     #title_section{
+          margin-top: 100px;
+          margin-bottom: 80px;
+          color: #2D3446;
+     }
+     #title_section p:first-of-type{
+          color: #2D3446;
+          font-size: 46px;
+          font-weight: 500;
+          line-height: 54px;
+          text-align: center;
+     }
+     #title_section p:nth-child(2){
+          font-size: 18px;
+          line-height: 27px;
+          text-align: center;
+     }
+
+     #blog_section_1{
+          margin-bottom: 80px;
+     }
+     #blog_section_1 div img{
+          max-width:100%;max-height:100%;
+     }
+
+     #blog_section_2{
+          margin-bottom: 200px;
+     }
+
+     #blog_section_2 div img{
+          max-width:100%;max-height:100%;
+     }
+
+     #blog_section div div button{
+          margin: 40px 0 10px 0;
+          color: #A370AD;
+          background-color:
+                  rgba(193,115,148,0.25);
+          border:2px
+          rgba(193,115,148,0.25);
+
+     }
+     #blog_section div div p:first-of-type{
+
+          font-size: 20px;	font-weight: 500;	line-height: 26px;
+
+     }
+
+     #blog_section div div p:nth-last-child(2){
+          opacity: 0.5;		font-size: 16px;	line-height: 22px;
+     }
+
+     #blog_section div div p:last-of-type{
+          font-size: 12px;	line-height: 22px;
+     }
+
+     #blog_section div div p span{
+          font-size: 12px;	line-height: 22px; color: #A370AD;
+     }
+
+
+
+
+     /*This is single section*/
+
+     #single_section_1{
+          margin:100px 0 100px 0 ;
+          text-align: center;
+          color: #2D3446;
+     }
+
+     #single_section_1 img{
+          max-width:100%;max-height:100%;
+     }
+
+     #single_section_1 p:first-of-type{
+          font-size: 32px;
+          margin: 50px 0;
+          font-weight: 500;
+          line-height: 38px;
+     }
+
+     #title_under_image p{
+          margin: 15px 0!important;
+     }
+
+     #single_section_1 p:last-of-type{
+          font-size: 18px;
+          font-weight: 500;
+          text-align: left;
+          line-height: 27px;
+
+     }
+
+
+
+     #single_section_1_sub p span{
+
+          color: blue;
+
+     }
+
+     /*faq section is from here*/
+
+     #faq_discuss_section{
+          margin:150px 0 150px 0;
+
+     }
+
+     #faq_discuss_section div div div .card-header{
+          text-align: left;
+     }
+     #faq_discuss_section >div:first-of-type{
+          text-align: center;
+          padding: 0
+     }
+
+     #faq_discuss_section >div:first-of-type img{
+          max-width:100%;max-height:100%;
+     }
+
+     #faq_right_discussion_section{
+          padding: 50px 88px
+     }
+
+     #faq_right_discussion_section div div div h5 button{
+          color:  #2D3446;
+          background-color: white;
+     }
+
+     #faq_right_discussion_section div div div h5 i{
+          float: right;
+          color: grey;
+     }
+
+     #faq_right_discussion_section div div div h5 button{
+          color: #2D3446;	font-size: 16px;	font-weight: 500;	line-height: 19px;
+     }
+
+     #faq_right_discussion_section div div .card-body{
+          color: rgba(45,52,70,0.5);	font-size: 16px;	line-height: 23px;
+     }
+
+     #faq_search_form{
+          margin-top: 100px;
+     }
+     #faq_search_form div div input{
+          height: 50px;
+          border:1px solid white;
+
+     }
+
+     #faq_search_form div div div span{
+          color:   #F3A089;
+          background-color: white;
+          border:1px solid white;
+          border-radius: 1px;
+
+     }
+
+     #faq_search_form div div .input-group{
+
+          box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+     }
+
+
+
+     /*This is contact us section*/
+
+     #contactus_section_1{
+          margin: 150px 0;
+          color: #2D3446;
+     }
+     #contactus_section_1 div img{
+          max-width: 100%;
+          max-height: 100%;
+     }
+
+     #contactus_section_1 div p:first-of-type{
+          margin: 0 0 50px 0;
+          font-size: 46px;
+          font-weight: 500;
+          line-height: 54px;padding-left: 88px;
+     }
+     #contactus_section_1 div p:last-of-type{
+          font-size: 18px;	line-height: 27px;
+          padding-left: 88px;
+          margin: 0 0 70px 0;
+     }
+     #main_contact_form{
+          box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+          padding: 50px 40px;
+          margin: 0 88px;
+
+     }
+
+     #main_contact_form form div input{
+          border:1px solid whitesmoke;
+          height: 50px;
+     }
+
+     #main_contact_form form div label{
+          font-size: 16px;	font-weight: 500;	line-height: 19px;
+          margin-top: 50px;
+     }
+     #main_contact_form form span{
+          font-size: 24px;	font-weight: 500;	line-height: 28px;
+
+     }
+
+
+     ::placeholder { /* Firefox, Chrome, Opera */
+          color: grey!important;
+          opacity: 0.4!important;
+     }
+
+     #main_contact_form form button{
+          height: 50px;
+          background-color:  #F3A089;
+          border:1px solid #F3A089;
+          width: 100%;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     @media only screen and (max-width: 1150px) {
+          #logo{
+               width: 150px;
+               height: 40px;
+               padding-bottom: 5px;
+          }
+          .navbar{
+               margin: 30px 0 0 0;
+               background-color: white!important;
+               font-size: 13px;
+
+          }
+          .navbar_sub_link{
+               color: #455F8E!important;
+          }
+
+          #language_select{
+               width: 21px;
+               height: 21px;
+          }
+
+          #nav_connect{
+               margin: 0 40px
+          }
+
+
+          .navbar div ul li a{
+               color: #455F8E;
+          }
+          #banner_section{
+               margin: 0 10px;
+          }
+
+          #banner_section_first{
+               margin-top: 50px
+          }
+
+          .banner_form button{
+
+               height: 50px;
+          }
+
+          #banner_main_image img{
+               max-width:100%;max-height:100%;
+               box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+          }
+
+          .banner_form input{
+               border: 1px solid white!important;;
+               box-shadow: 2px 2px 2px lightgrey;
+               height: 50px;
+          }
+
+          #banner_section{
+               color: #2D3446;
+          }
+          #banner_section div p:first-of-type{
+
+               color: #2D3446;
+               font-size: 37px;
+               font-weight: 500;
+               line-height: 40px;
+          }
+
+          .banner_form{
+               margin-top: 30px;
+          }
+
+          #banner_section div p:nth-child(2){
+               color: #2D3446;
+
+               font-size: 18px;
+               line-height: 27px;
+          }
+
+          #tma_section{
+               margin: 50px 10px;
+               color: #2D3446;
+          }
+
+          #tma_section div{
+               margin-top: 30px;
+          }
+
+          #tma_section div p:first-of-type{
+               font-size: 18px;
+               font-weight: 500;
+               margin-top: 20px;
+          }
+          #tma_section div img{
+               width: 37px;
+               height: 37px;
+          }
+
+
+
+          #third_section{
+               margin: 70px 10px 30px 10px;
+               text-align: center;
+               padding:0;
+          }
+
+          #third_section div p:first-of-type{
+               font-size: 32px;
+               line-height: 38px;
+               text-align: center;
+          }
+
+          #third_section div p:nth-child(2){
+               font-size: 18px;
+               line-height: 27px;
+               text-align: center;
+               opacity: 0.75;
+          }
+
+          #discuss_section{
+               margin:35px 0 0 0;
+          }
+
+          #discuss_section >div:first-of-type{
+               text-align: center;
+               padding: 0
+          }
+
+          #discuss_section >div:first-of-type img{
+               max-width:100%;max-height:100%;
+          }
+
+          #right_discussion_section{
+               padding: 50px 10px;
+          }
+
+          #right_discussion_section div div div h5 button{
+               color:  #2D3446;
+               background-color: white;
+          }
+
+          #right_discussion_section div div div h5 i{
+               float: right;
+               color: grey;
+          }
+          .card{
+
+               border-left: 1px solid white;
+               border-right: 1px solid white;
+
+          }
+
+          .card_actived{
+               border-top: 4px solid #F3A089;
+               box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+               margin-bottom: 8px;
+               padding-bottom: 20px;
+          }
+          .card-header{
+               background-color: white;
+               border-bottom:  1px solid white;
+          }
+
+
+
+          .card-body{
+               color:  #2D3446;
+          }
+
+
+
+          #fourth_section{
+               margin: 50px 10px 0 10px ;
+               text-align: center;
+               padding-left: 0;
+               padding-right: 0;
+          }
+
+          #fourth_section div p:first-of-type{
+               font-size: 32px;
+               line-height: 38px;
+               text-align: center;
+          }
+
+          #fourth_section div p:nth-child(2){
+               font-size: 18px;
+               line-height: 27px;
+               text-align: center;
+               opacity: 0.75;
+          }
+
+          #link_section{
+               margin: 30px 20px; padding: 0;
+               color:  #2D3446;
+          }
+          .sub_link_section p:first-of-type {
+
+               font-size: 18px;
+               font-weight: 500;
+               line-height: 21px;
+          }
+
+          .link_section_text {
+
+               color: rgba(45,52,70,0.5);
+               font-size: 16px;
+               line-height: 23px;
+               margin-bottom: 25px;
+          }
+
+          #link_section div img{
+               width: 35px;
+               height: 35px;
+               margin-bottom: 10px;
+
+          }
+
+          .sub_link_section{
+               padding: 0;
+          }
+          .sub_link_section div div p{
+               font-size: 16px;
+               line-height: 18px;
+               color: #F3A089;
+               font-weight: 400!important;
+
+          }
+          .sub_link_section_m{
+               margin-top: 30px;
+          }
+
+
+
+          #contactus_section{
+               margin: 0 10px;
+               padding: 40px 0;
+               height: 222px;
+               background-color:        #F3A089;
+               text-align: center;
+          }
+
+          #contactus_section  >div:first-of-type{
+               font-size: 24px;
+               line-height: 20px;
+               padding: 0 56px 0 56px
+          }
+          #contactus_section  >div:first-of-type p:first-of-type{
+               color: white
+          }
+          #contactus_section div button{
+               margin-top: 10px;
+               height: 40px;
+          }
+
+          .footer{
+               padding: 50px 0;
+               color: #2D3446;
+          }
+          #footer_logo{
+               width: 145px;
+               height: 30px;
+          }
+
+          #footer_logo_div{
+               margin: 0 10px 0 10px;
+          }
+          #footer_logo_div div button{
+               box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+               margin-right: 20px;
+          }
+          #footer_logo_div div button i{
+               margin-right: 10px;
+
+          }
+          .button_for_hide{
+               display: none;
+          }
+          .show_in_mobile{
+               display: block;
+          }
+          .show_in_mobile i{
+               margin-right: 20px;
+          }
+
+          #footer_link_div{
+               margin: 0 10px;color: #2D3446
+          }
+
+          #footer_link_div div i{
+
+               margin-right: 15px;
+          }
+          #footer_link_div div p{
+               color: #2D3446;
+
+               font-size: 14px;
+               font-weight: 500;
+               line-height: 14px;
+          }
+
+          #footer_link_div div a{
+               color: #2D3446;
+
+          }
+          #footer_link_div div{
+               margin-top: 25px;
+          }
+
+
+
+          /*Here is platform part*/
+
+
+
+
+          #platform_banner_section{
+               margin: 0 20px 80px 20px;
+          }
+
+          #platform_banner_section_first{
+               margin-top: 50px
+          }
+
+
+
+          .platform_banner_form button{
+
+               height: 50px;
+               margin: 20px 0;
+          }
+
+          #platform_banner_main_image img{
+               max-width:100%;max-height:100%;
+               /*box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;*/
+
+          }
+
+          #platform_banner_section{
+               color: #2D3446;
+          }
+          #platform_banner_section div p:first-of-type{
+
+               color: #2D3446;
+               font-size: 36px;
+               font-weight: 500;
+               line-height: 40px;
+          }
+
+
+
+          #platform_banner_section div p:nth-child(2){
+               color: #2D3446;
+
+               font-size: 18px;
+               line-height: 27px;
+          }
+
+          /*#platform_discuss_section_pc{*/
+          /*    display: none;*/
+          /*}*/
+
+
+          /*#platform_discuss_section_mobile{*/
+          /*    display: block;*/
+          /*}*/
+          .platform_discuss_section{
+               margin: 20px 0 0 0 ;
+               color: #2D3446;
+          }
+
+          .platform_discuss_section >div:first-of-type img{
+               max-width:100%;max-height:100%;
+
+          }
+          .platform_discuss_section_second{
+               padding: 20px 20px;
+          }
+
+          .platform_discuss_section_second p:first-of-type{
+               font-size: 32px;
+               line-height: 38px;
+               margin-top: 30px;
+
+          }
+
+          .platform_discuss_section_second p:nth-child(2){
+               opacity: 0.75;
+               color: #2D3446;
+               font-size: 18px;
+               line-height: 27px;
+          }
+
+          #platform_discuss_section_second img{
+               max-width:100%;max-height:100%;
+
+          }
+
+          #platform_discussion_section_mobile_image img{
+               max-width:100%;max-height:100%;
+          }
+
+
+          #platform_tma_section{
+               margin: 50px 20px 120px 20px;
+               color: #2D3446;
+          }
+
+          #platform_tma_section div p:first-of-type{
+               font-size: 18px;
+               font-weight: 500;
+               margin-top: 20px;
+          }
+          #platform_tma_section div img{
+               width: 37px;
+               height: 37px;
+          }
+
+          #platform_tma_section div {
+               margin-top: 30px;
+          }
+
+
+
+
+
+
+          /*This is contact us section*/
+
+          #contactus_section_1{
+               margin: 30px 0;
+               color: #2D3446;
+          }
+          #contactus_section_1 div img{
+               max-width: 100%;
+               max-height: 100%;
+          }
+
+          #contactus_section_1 div p:first-of-type{
+               margin: 0 0 30px 0;
+               font-size: 32px;
+               font-weight: 500;
+               line-height: 40px;padding-left: 20px;
+          }
+          #contactus_section_1 div p:last-of-type{
+               font-size: 16px;	line-height: 27px;
+               padding-left: 20px;
+               margin: 0 0 70px 0;
+               opacity: 0.7;
+          }
+          #main_contact_form{
+               box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+               padding: 50px 40px;
+               margin: 0 0;
+
+          }
+
+          #contactus_section_1_first{
+               margin-top: 100px;
+          }
+
+          #main_contact_form form div input{
+               border:1px solid whitesmoke;
+               height: 50px;
+          }
+
+          #main_contact_form form div label{
+               font-size: 16px;	font-weight: 500;	line-height: 19px;
+               margin-top: 20px;
+          }
+          #main_contact_form form span{
+               font-size: 24px;	font-weight: 500;	line-height: 28px;
+
+          }
+
+
+          ::placeholder { /* Firefox, Chrome, Opera */
+               color: grey!important;
+               opacity: 0.4!important;
+          }
+
+          #main_contact_form form button{
+               height: 50px;
+               background-color:  #F3A089;
+               border:1px solid #F3A089;
+               width: 100%;
+          }
+
+          #contactus_section_1_first{
+               padding-left: 0;
+               padding-right: 0;
+          }
+          #contactus_section_1_second{
+               margin: 70px 0%;
+          }
+
+     }
+
+
+
+
+
+
+     @media only screen and (max-width: 720px) {
+          #logo{
+               width: 150px;
+               height: 40px;
+               padding-bottom: 5px;
+          }
+          .navbar{
+               margin: 30px 0 0 0;
+               background-color: white!important;
+               font-size: 13px;
+
+          }
+          .navbar_sub_link{
+               color: #455F8E!important;
+          }
+
+          #language_select{
+               width: 21px;
+               height: 21px;
+          }
+
+          #nav_connect{
+               margin: 0 40px
+          }
+
+
+          .navbar div ul li a{
+               color: #455F8E;
+          }
+          #banner_section{
+               margin: 0 10px;
+          }
+
+          #banner_section_first{
+               margin-top: 50px
+          }
+
+          .banner_form button{
+
+               height: 50px;
+          }
+
+          #banner_main_image img{
+               max-width:100%;max-height:100%;
+               box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+          }
+
+          .banner_form input{
+               border: 1px solid white!important;;
+               box-shadow: 2px 2px 2px lightgrey;
+               height: 50px;
+          }
+
+          #banner_section{
+               color: #2D3446;
+          }
+          #banner_section div p:first-of-type{
+
+               color: #2D3446;
+               font-size: 37px;
+               font-weight: 500;
+               line-height: 40px;
+          }
+
+          .banner_form{
+               margin-top: 30px;
+          }
+
+          #banner_section div p:nth-child(2){
+               color: #2D3446;
+
+               font-size: 18px;
+               line-height: 27px;
+          }
+
+          #tma_section{
+               margin: 50px 10px;
+               color: #2D3446;
+          }
+
+          #tma_section div{
+               margin-top: 30px;
+          }
+
+          #tma_section div p:first-of-type{
+               font-size: 18px;
+               font-weight: 500;
+               margin-top: 20px;
+          }
+          #tma_section div img{
+               width: 37px;
+               height: 37px;
+          }
+
+
+
+          #third_section{
+               margin: 70px 10px 30px 10px;
+               text-align: center;
+               padding:0;
+          }
+
+          #third_section div p:first-of-type{
+               font-size: 32px;
+               line-height: 38px;
+               text-align: center;
+          }
+
+          #third_section div p:nth-child(2){
+               font-size: 18px;
+               line-height: 27px;
+               text-align: center;
+               opacity: 0.75;
+          }
+
+
+
+
+          #discuss_section{
+               margin:35px 0 0 0;
+          }
+
+          #discuss_section >div:first-of-type{
+               text-align: center;
+               padding: 0
+          }
+
+          #discuss_section >div:first-of-type img{
+               max-width:100%;max-height:100%;
+          }
+
+          #right_discussion_section{
+               padding: 50px 10px;
+          }
+
+          #right_discussion_section div div div h5 button{
+               color:  #2D3446;
+               background-color: white;
+          }
+
+          #right_discussion_section div div div h5 i{
+               float: right;
+               color: grey;
+          }
+          .card{
+
+               border-left: 1px solid white;
+               border-right: 1px solid white;
+
+          }
+
+          .card_actived{
+               border-top: 4px solid #F3A089;
+               box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+               margin-bottom: 8px;
+               padding-bottom: 20px;
+          }
+          .card-header{
+               background-color: white;
+               border-bottom:  1px solid white;
+          }
+
+
+
+          .card-body{
+               color:  #2D3446;
+          }
+
+
+
+
+
+
+
+          #fourth_section{
+               margin: 50px 10px 0 10px ;
+               text-align: center;
+               padding-left: 0;
+               padding-right: 0;
+          }
+
+          #fourth_section div p:first-of-type{
+               font-size: 32px;
+               line-height: 38px;
+               text-align: center;
+          }
+
+          #fourth_section div p:nth-child(2){
+               font-size: 18px;
+               line-height: 27px;
+               text-align: center;
+               opacity: 0.75;
+          }
+
+          #link_section{
+               margin: 30px 20px; padding: 0;
+               color:  #2D3446;
+          }
+          .sub_link_section p:first-of-type {
+
+               font-size: 18px;
+               font-weight: 500;
+               line-height: 21px;
+          }
+
+          .link_section_text {
+
+               color: rgba(45,52,70,0.5);
+               font-size: 16px;
+               line-height: 23px;
+               margin-bottom: 25px;
+          }
+
+          #link_section div img{
+               width: 35px;
+               height: 35px;
+               margin-bottom: 10px;
+
+          }
+
+          .sub_link_section{
+               padding: 0;
+          }
+          .sub_link_section div div p{
+               font-size: 16px;
+               line-height: 18px;
+               color: #F3A089;
+               font-weight: 400!important;
+
+          }
+          .sub_link_section_m{
+               margin-top: 30px;
+          }
+
+
+
+          #contactus_section{
+               margin: 0 10px;
+               padding: 40px 0;
+               height: 222px;
+               background-color:        #F3A089;
+               text-align: center;
+          }
+
+          #contactus_section  >div:first-of-type{
+               font-size: 24px;
+               line-height: 20px;
+               padding: 0 56px 0 56px
+          }
+          #contactus_section  >div:first-of-type p:first-of-type{
+               color: white
+          }
+          #contactus_section div button{
+               margin-top: 10px;
+               height: 40px;
+          }
+
+          .footer{
+               padding: 50px 0;
+               color: #2D3446;
+          }
+          #footer_logo{
+               width: 145px;
+               height: 30px;
+          }
+
+          #footer_logo_div{
+               margin: 0 10px 0 10px;
+          }
+          #footer_logo_div div button{
+               box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+               margin-right: 20px;
+          }
+          #footer_logo_div div button i{
+               margin-right: 10px;
+
+          }
+          .button_for_hide{
+               display: none;
+          }
+          .show_in_mobile{
+               display: block;
+          }
+          .show_in_mobile i{
+               margin-right: 20px;
+          }
+
+          #footer_link_div{
+               margin: 0 10px;color: #2D3446
+          }
+
+          #footer_link_div div i{
+
+               margin-right: 15px;
+          }
+          #footer_link_div div p{
+               color: #2D3446;
+
+               font-size: 14px;
+               font-weight: 500;
+               line-height: 14px;
+          }
+
+          #footer_link_div div a{
+               color: #2D3446;
+
+          }
+          #footer_link_div div{
+               margin-top: 25px;
+          }
+
+
+
+          /*Here is platform part*/
+
+
+
+
+          #platform_banner_section{
+               margin: 0 20px 80px 20px;
+          }
+
+          #platform_banner_section_first{
+               margin-top: 50px
+          }
+
+
+
+          .platform_banner_form button{
+
+               height: 50px;
+               margin: 20px 0;
+          }
+
+          #platform_banner_main_image img{
+               max-width:100%;max-height:100%;
+               /*box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;*/
+
+          }
+
+          #platform_banner_section{
+               color: #2D3446;
+          }
+          #platform_banner_section div p:first-of-type{
+
+               color: #2D3446;
+               font-size: 36px;
+               font-weight: 500;
+               line-height: 40px;
+          }
+
+
+
+          #platform_banner_section div p:nth-child(2){
+               color: #2D3446;
+
+               font-size: 18px;
+               line-height: 27px;
+          }
+
+          #platform_discuss_section_pc{
+               display: none;
+          }
+
+
+          #platform_discuss_section_mobile{
+               display: block;
+          }
+          .platform_discuss_section{
+               margin: 20px 0 0 0 ;
+               color: #2D3446;
+          }
+
+          .platform_discuss_section >div:first-of-type img{
+               max-width:100%;max-height:100%;
+
+          }
+          .platform_discuss_section_second{
+               padding: 20px 20px;
+          }
+
+          .platform_discuss_section_second p:first-of-type{
+               font-size: 32px;
+               line-height: 38px;
+               margin-top: 30px;
+
+          }
+
+          .platform_discuss_section_second p:nth-child(2){
+               opacity: 0.75;
+               color: #2D3446;
+               font-size: 18px;
+               line-height: 27px;
+          }
+
+          #platform_discuss_section_second img{
+               max-width:100%;max-height:100%;
+
+          }
+
+          #platform_discussion_section_mobile_image img{
+               max-width:100%;max-height:100%;
+          }
+
+
+          #platform_tma_section{
+               margin: 50px 20px 120px 20px;
+               color: #2D3446;
+          }
+
+          #platform_tma_section div p:first-of-type{
+               font-size: 18px;
+               font-weight: 500;
+               margin-top: 20px;
+          }
+          #platform_tma_section div img{
+               width: 37px;
+               height: 37px;
+          }
+
+          #platform_tma_section div {
+               margin-top: 30px;
+          }
+
+
+          /*single page is here*/
+          #single_section_1{
+               margin:10px 0 100px 0 ;
+               text-align: center;
+               color: #2D3446;
+          }
+
+
+
+
+          /*blog section here*/
+
+          #title_section {
+               margin-top: 35px;
+               margin-bottom: 70px;
+          }
+          #blog_section_2{
+               margin-bottom: 50px;
+          }
+
+          /*faq section here*/
+          #faq_search_form {
+               margin-top: 30px;
+          }
+
+          #faq_discuss_section {
+               margin: 100px 0 100px 0;
+          }
+
+
+          /*This is contact us section*/
+
+          #contactus_section_1{
+               margin: 30px 0;
+               color: #2D3446;
+          }
+          #contactus_section_1 div img{
+               max-width: 100%;
+               max-height: 100%;
+          }
+
+          #contactus_section_1 div p:first-of-type{
+               margin: 0 0 30px 0;
+               font-size: 32px;
+               font-weight: 500;
+               line-height: 40px;padding-left: 20px;
+          }
+          #contactus_section_1 div p:last-of-type{
+               font-size: 16px;	line-height: 27px;
+               padding-left: 20px;
+               margin: 0 0 70px 0;
+               opacity: 0.7;
+          }
+          #main_contact_form{
+               box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+               padding: 50px 40px;
+               margin: 0 0;
+
+          }
+
+          #main_contact_form form div input{
+               border:1px solid whitesmoke;
+               height: 50px;
+          }
+
+          #main_contact_form form div label{
+               font-size: 16px;	font-weight: 500;	line-height: 19px;
+               margin-top: 20px;
+          }
+          #main_contact_form form span{
+               font-size: 24px;	font-weight: 500;	line-height: 28px;
+
+          }
+
+
+          ::placeholder { /* Firefox, Chrome, Opera */
+               color: grey!important;
+               opacity: 0.4!important;
+          }
+
+          #main_contact_form form button{
+               height: 50px;
+               background-color:  #F3A089;
+               border:1px solid #F3A089;
+               width: 100%;
+          }
+
+          #contactus_section_1_first{
+               padding-left: 0;
+               padding-right: 0;
+          }
+          #contactus_section_1_second{
+               margin: 70px 0%;
+          }
+
+          #contactus_section_1_first{
+               margin-top: 0;
+          }
+
+
+     }
+
+
+
+     @media only screen and (max-width: 992px) {
+          #main{
+               display: block;
+
+          }
+
+          #navbar{
+               display: none;
+          }
+     }
+</style>
+
+
 <body>
 
+
      {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
+
 
      {{.Content}}
      {{ range .Pages }}
@@ -31,7 +1755,8 @@
      {{ end }}
 
 
-     {{ partial "footer" . }}
+
+     {{ partial "footer"  }}
 
 </body>
 </html>
