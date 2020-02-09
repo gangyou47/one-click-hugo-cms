@@ -63,30 +63,30 @@ collections:
         name: "platform"
         fields:
           - {label: "Platform1_banner", name: platform1_banner, widget: object, fields: [
-            {label: "Heading1", name: "heading1", widget: string},
-            {label: "Text1", name: "text1", widget: "text"},
-            {label: "Image1", name: "image1", widget: "image"}]}
+              {label: "Heading1", name: "heading1", widget: string},
+              {label: "Text1", name: "text1", widget: "text"},
+              {label: "Image1", name: "image1", widget: "image"}]}
           - {label: "Platform2_second_banner", name: platform2_second_banner, widget: object, fields: [
-            {label: "Heading2", name: "heading2", widget: string},
-            {label: "Text2", name: "text2", widget: "text"},
-            {label: "Image2", name: "image2", widget: "image"}]}
+              {label: "Heading2", name: "heading2", widget: string},
+              {label: "Text2", name: "text2", widget: "text"},
+              {label: "Image2", name: "image2", widget: "image"}]}
           - {label: "Platform3_third_banner", name: platform3_third_banner, widget: object, fields: [
-            {label: "Heading3", name: "heading3", widget: string},
-            {label: "Text3", name: "text3", widget: "text"},
-            {label: "Image3", name: "image3", widget: "image"}]}
+              {label: "Heading3", name: "heading3", widget: string},
+              {label: "Text3", name: "text3", widget: "text"},
+              {label: "Image3", name: "image3", widget: "image"}]}
           - {label: "platform4_three_section", name: platform4_three_section, widget: object, fields: [
-            {label: "Heading41", name: "heading41", widget: string},
-            {label: "Text41", name: "text41", widget: "text"},
-            {label: "Image41", name: "image41", widget: "image"},
-            {label: "Heading42", name: "heading42", widget: string},
-            {label: "Text42", name: "text42", widget: "text"},
-            {label: "Image42", name: "image42", widget: "image"},
-            {label: "Heading43", name: "heading43", widget: string},
-            {label: "Text43", name: "text43", widget: "text"},
-            {label: "Image43", name: "image43", widget: "image"}]}
+              {label: "Heading41", name: "heading41", widget: string},
+              {label: "Text41", name: "text41", widget: "text"},
+              {label: "Image41", name: "image41", widget: "image"},
+              {label: "Heading42", name: "heading42", widget: string},
+              {label: "Text42", name: "text42", widget: "text"},
+              {label: "Image42", name: "image42", widget: "image"},
+              {label: "Heading43", name: "heading43", widget: string},
+              {label: "Text43", name: "text43", widget: "text"},
+              {label: "Image43", name: "image43", widget: "image"}]}
           - {label: "platform5_bottom", name: platform5_bottom, widget: object, fields: [
-            {label: "Heading5", name: "heading5", widget: string},
-            {label: "Text5", name: "text5", widget: "text"}]}
+              {label: "Heading5", name: "heading5", widget: string},
+              {label: "Text5", name: "text5", widget: "text"}]}
       - file: "site/content/faq/_index.md"
         label: "FAQ Page"
         name: "faq"
@@ -106,5 +106,13 @@ collections:
             {label: "Text26", name: "text26", widget: "text"},
             {label: "Heading27", name: "heading27", widget: string},
             {label: "Text27", name: "text27", widget: "text"}]}
+      - file: "site/content/contactus/_index.md"
+        label: "Contact Page"
+        name: "contactus"
+        fields:
+          - {label: "Contactus1_first", name: contactus1_first, widget: object, fields: [
+              {label: "Heading1", name: "heading1", widget: string},
+              {label: "Text1", name: "text1", widget: "text"},
+              {label: "Image1", name: "image1", widget: "image"}]}
 
 
