@@ -17,6 +17,8 @@ collections:
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["news"]}
+      - {label: "Subheading", name: "subheading", widget: string, allow_add: true}
+      - {label: "Subheading Text", name: "subtext", allow_add: true, widget: "text"}]}
   - name: "page"
     label: "pages"
     files:

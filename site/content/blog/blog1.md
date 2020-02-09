@@ -13,5 +13,7 @@ image: img/2.jpg
 tags:
   - IT
   - Sport
+subheading: this is subheading
+subtext: "this is subtext"
 ---
 
