@@ -1,7 +1,7 @@
 ---
 platform1_banner:
   heading1: Gestion des travaux modificatifs
-  image1: /img/platfrorm_banner.png
+  image1: img/Group 12.svg
   text1: >-
     Fini le papier et les aller-retours infructueux. Proposez à vos acquéreurs
     de peronnaliser leur logement de manière indépendante, dans les limites de
