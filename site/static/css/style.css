@@ -1742,3 +1742,8 @@
 #footer_link_div div p {
     font-size: 18px!important;
 }
+
+.card div h5 span i{
+    font-size: 13px; margin-top: 5px
+}
+
