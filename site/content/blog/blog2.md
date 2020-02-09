@@ -1,5 +1,5 @@
 ---
-heading: This is heading of blog2
+title: This is heading of blog2
 date: 2020-02-09T00:21:39.000Z
 text: >-
   Lors de cette démonstration personnalisée, vous pourrez exprimer vos besoins

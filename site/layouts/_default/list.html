@@ -1768,7 +1768,7 @@
                     <a href="{{.URL}}"><img src="/{{.Params.image}}"></a>
                     <div id="blog_main_infos">
                          {{ if .Params.tags }} {{range .Params.tags}} <button type="button"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" >{{ . }}</a></button> {{end}}{{end}}
-                         <p><a href="{{.URL}}" style="color: #2D3446"> {{.Params.heading}}</a></p>
+                         <p><a href="{{.URL}}" style="color: #2D3446"> {{.Title}}</a></p>
                          <p>{{truncate 50 .Params.text  }}</p>
                          <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }} By <span style="font-size: 14px">{{.Params.author}}</span></p>
                     </div>
