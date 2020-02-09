@@ -1736,12 +1736,38 @@
 <body>
      {{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
 
-     <div style="margin:25px;">
-          <h1>{{.Title}}</h1>
-          <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
-          <div style="color:grey; font-size:16px;">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
-          <div style="font-size:18px;">{{.Content}}</div>
+
+
+     <div class="container" style="text-align: center">
+
+
+          <div class="" id="single_section_1">
+               <img src="{{.Params.image}}">
+
+               <div id="title_under_image">
+                    <p>Blog > <span>{{.Params.heading}}</span></p>
+               </div>
+               <p>{{.Params.heading}}</p>
+               <p style="text-align: left;font-size: 18px; font-weight: 500; line-height: 27px;">{{.Params.text}}
+               </p>
+
+               <p style="text-align: left;font-size: 24px; font-weight: 500; line-height: 27px; margin-top: 30px">{{.Params.subheading}}</p>
+               <p>{{.Params.subtext}}</p>
+
+               <div id="single_section_1_sub">
+                    <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }} <span>J{{.Params.Author}}</span></p>
+               </div>
+
+          </div>
      </div>
+
+
+<!--     <div style="margin:25px;">-->
+<!--          <h1>{{.Title}}</h1>-->
+<!--          <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>-->
+<!--          <div style="color:grey; font-size:16px;">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>-->
+<!--          <div style="font-size:18px;">{{.Content}}</div>-->
+<!--     </div>-->
      {{ partial "footer" . }}
 
 

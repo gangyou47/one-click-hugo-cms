@@ -1730,34 +1730,72 @@
                display: none;
           }
      }
+
+
+     #blog_main_infos {
+          box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+           padding-right: 15px;
+           padding-left: 15px;
+          padding-bottom: 20px;
+          /*margin: 0 15px;*/
+     }
+     #list_blog_section{
+          margin-bottom: 50px;
+     }
 </style>
 
 
 <body>
 
-
      {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
+
+     <div class="container" id="title_section">
+          <p>Blog</p>
+          <p>Toutes les nouveautés, conseils et coulisses de Logement3D.</p>
+     </div>
+
+     <div class="container" id="blog_section">
+
+          <div class="row" id="blog_section_2">
+
 
 
      {{.Content}}
      {{ range .Pages }}
-          <div style="border: 1px solid black; margin:10px; padding:10px; ">
-               <div style="font-size:20px;">
-                    <a href="{{.URL}}">{{.Title}}</a>
-               </div>
-               <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
-               <div>Heading: {{.Params.heading}}</div>
-               <div>Text: {{ .Params.text}}</div>
-               <img src="{{.Params.image}}">
-               
-               
-               <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-               <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-               <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
 
-               <p style="font-size:18px;">{{.Summary}}</p>
-          </div>
+
+               <div class="col-md-4" id="list_blog_section">
+                    <a href="{{.URL}}"><img src="{{.Params.image}}"></a>
+                    <div id="blog_main_infos">
+                         {{ if .Params.tags }} {{range .Params.tags}} <button type="button"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" >{{ . }}</a></button> {{end}}{{end}}
+                         <p><a href="{{.URL}}" style="color: #2D3446"> {{.Params.heading}}</a></p>
+                         <p>{{truncate 50 .Params.text  }}</p>
+                         <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }} By <span style="font-size: 14px">{{.Params.author}}</span></p>
+                    </div>
+
+               </div>
+
+
+<!--          <div style="border: 1px solid black; margin:10px; padding:10px; ">-->
+<!--               <div style="font-size:20px;">-->
+<!--                    <a href="{{.URL}}">{{.Title}}</a>-->
+<!--               </div>-->
+<!--               <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>-->
+<!--               <div>Heading: {{.Params.heading}}</div>-->
+<!--               <div>Text: {{ .Params.text}}</div>-->
+<!--               <img src="{{.Params.image}}">-->
+<!--               -->
+<!--               -->
+<!--               <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>-->
+<!--               <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>-->
+<!--               <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>-->
+
+<!--               <p style="font-size:18px;">{{.Summary}}</p>-->
+<!--          </div>-->
      {{ end }}
+
+          </div>
+     </div>
 
 
 
