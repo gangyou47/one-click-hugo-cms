@@ -38,7 +38,7 @@ platform4_three_section:
     vos services informatiques.
   text43: >-
     Nous pouvons nous intégrer aux procédures et logiciels mises en place avec
-    vos services informatiques.
+    vos services informatiques. 
 platform5_bottom:
   heading5: Prêt à vous lancer ?
   text5: Contactez-nous ou demandez une démonstration
