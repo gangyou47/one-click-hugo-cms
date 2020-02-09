@@ -1,18 +1,18 @@
 ---
-title: "Blog1"
-date: 2020-02-08T16:26:44-08:00
-draft: false
-
+title: Blog1-updated
+date: 2020-02-09T00:26:44.000Z
+text: >-
+  Lors de cette démonstration personnalisée, vous pourrez exprimer vos besoins
+  et expliquer vos objectifs. Vous pourrez découvrir l’interface de Logment3D en
+  partage d’écran et voir concrètement comment le logiciel s’utilise au
+  quotidien.Lors de cette démonstration personnalisée, vous pourrez exprimer vos
+  besoins et expliquer vos objectifs. Vous pourrez découvrir l’interface de
+  Logment3D en partage d’écran et voir concrètement comment le logiciel
+  s’utilise au quotidien.
+image: /img/2.jpg
 heading: This is heading of blog1
-text: "Lors de cette démonstration personnalisée, vous pourrez exprimer vos besoins et expliquer vos objectifs. Vous pourrez découvrir l’interface de Logment3D en partage d’écran et voir concrètement comment le logiciel s’utilise au quotidien.Lors de cette démonstration personnalisée, vous pourrez exprimer vos besoins et expliquer vos objectifs. Vous pourrez découvrir l’interface de Logment3D en partage d’écran et voir concrètement comment le logiciel s’utilise au quotidien."
-image : /img/2.jpg
-author: gangyou
-tags: ["IT", "Sport"]
-
-subheading: subheading head text
-subtext: subtext text body
-
-
-
+tags:
+  - IT
+  - Sport
 ---
 
