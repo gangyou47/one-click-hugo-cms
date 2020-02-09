@@ -12,11 +12,10 @@ collections:
     folder: "site/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: string}
+      - {label: "Heading", name: "heading", widget: string}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Heading", name: "heading", widget: string}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["news"]}
   - name: "page"
     label: "pages"

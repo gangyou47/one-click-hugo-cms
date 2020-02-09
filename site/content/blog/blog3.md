@@ -5,7 +5,7 @@ draft: false
 
 heading: This is heading of blog3
 text: "lorem"
-image : /img/blog3.png
+image : img/blog3.png
 author: gangyou
 tags: ["Music", "Sport"]
 
