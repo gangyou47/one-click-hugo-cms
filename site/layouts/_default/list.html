@@ -36,7 +36,7 @@
 
 
                <div class="col-md-4" id="list_blog_section">
-                    <a href="{{.URL}}"><img src="/{{.Params.image}}"></a>
+                    <a href="{{.URL}}"><img src="/{{.Params.image}}" style="max-width: 100%; max-height: 100%"></a>
                     <div id="blog_main_infos">
                          {{ if .Params.tags }} {{range .Params.tags}} <button type="button"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" >{{ . }}</a></button> {{end}}{{end}}
                          <p><a href="{{.URL}}" style="color: #2D3446"> {{.Title}}</a></p>

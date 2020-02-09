@@ -28,14 +28,28 @@
                <img src="/{{.Params.image}}">
 
                <div id="title_under_image">
-                    <p>Blog > <span>{{.Title}}</span></p>
+                    <p style=""><a href="/blog"> Blog &#62;</a>  <span>{{.Title}}</span></p>
                </div>
-               <p>{{.Params.heading}}</p>
+               <p>{{.Params.Title}}</p>
                <p style="text-align: left;font-size: 18px; font-weight: 500; line-height: 27px;">{{.Params.text}}
                </p>
+               <div style="text-align: left">
+                    {{ if .Params.all_subheading }}
+                    {{range .Params.all_subheading}}
+                     <p style="font-size: 24px; font-weight: 500; margin: 50px 0 30px 0"> {{.subheading}}</p>
 
-               <p style="text-align: left;font-size: 24px; font-weight: 500; line-height: 27px; margin-top: 30px">{{.Params.subheading}}</p>
-               <p>{{.Params.subtext}}</p>
+                    {{range .all_list}}
+                    <p  style="font-size: 18px; font-weight: 500; margin: 0 0 0 0">-{{.list}}</p>
+                    <p  style="font-size: 18px">{{.text}}</p>
+                    {{end}}
+
+
+                    {{end}}
+                    {{end}}
+               </div>
+
+
+
 
                <div id="single_section_1_sub">
                     <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }} <span>J{{.Params.Author}}</span></p>

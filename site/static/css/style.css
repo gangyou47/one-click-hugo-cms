@@ -96,13 +96,13 @@
 
 #banner_main_image img{
     max-width:100%;max-height:100%;
-    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
 
 }
 
 .banner_form input{
     border: 1px solid white!important;;
-    box-shadow: 2px 2px 2px lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
     height: 50px;
 }
 
@@ -200,9 +200,9 @@
 
 .card_actived{
     border-top: 4px solid #F3A089;
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     padding-bottom: 20px;
-    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
 }
 .card-header{
     background-color: white;
@@ -306,8 +306,9 @@
     margin: 0 140px 20px 140px;
 }
 #footer_logo_div div button{
-    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
     margin-right: 20px;
+    height: 50px;
 }
 #footer_logo_div div button i{
     margin-right: 10px;
@@ -600,7 +601,7 @@
 
 #faq_search_form div div .input-group{
 
-    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
 
 }
 
@@ -629,14 +630,14 @@
     margin: 0 0 70px 0;
 }
 #main_contact_form{
-    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
     padding: 50px 40px;
     margin: 0 88px;
 
 }
 
 #main_contact_form form div input{
-    border:1px solid whitesmoke;
+    border:2px solid whitesmoke;
     height: 50px;
 }
 
@@ -719,13 +720,13 @@
 
     #banner_main_image img{
         max-width:100%;max-height:100%;
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
 
     }
 
     .banner_form input{
         border: 1px solid white!important;;
-        box-shadow: 2px 2px 2px lightgrey;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
         height: 50px;
     }
 
@@ -826,8 +827,8 @@
 
     .card_actived{
         border-top: 4px solid #F3A089;
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-        margin-bottom: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
+        margin-bottom: 3px;
         padding-bottom: 20px;
     }
     .card-header{
@@ -939,19 +940,19 @@
         margin: 0 10px 0 10px;
     }
     #footer_logo_div div button{
-        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
         margin-right: 20px;
     }
     #footer_logo_div div button i{
         margin-right: 10px;
 
     }
-    .button_for_hide{
-        display: none;
-    }
-    .show_in_mobile{
-        display: block;
-    }
+    /*.button_for_hide{*/
+    /*    display: none;*/
+    /*}*/
+    /*.show_in_mobile{*/
+    /*    display: block;*/
+    /*}*/
     .show_in_mobile i{
         margin-right: 20px;
     }
@@ -1122,7 +1123,7 @@
         opacity: 0.7;
     }
     #main_contact_form{
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
         padding: 50px 40px;
         margin: 0 0;
 
@@ -1133,7 +1134,7 @@
     }
 
     #main_contact_form form div input{
-        border:1px solid whitesmoke;
+        border:2px solid whitesmoke;
         height: 50px;
     }
 
@@ -1208,7 +1209,7 @@
     }
 
     #banner_section_first{
-        margin-top: 50px
+        margin-top: 40px
     }
 
     .banner_form button{
@@ -1218,13 +1219,13 @@
 
     #banner_main_image img{
         max-width:100%;max-height:100%;
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
 
     }
 
     .banner_form input{
         border: 1px solid white!important;;
-        box-shadow: 2px 2px 2px lightgrey;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
         height: 50px;
     }
 
@@ -1328,8 +1329,8 @@
 
     .card_actived{
         border-top: 4px solid #F3A089;
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-        margin-bottom: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
+        margin-bottom: 3px;
         padding-bottom: 20px;
     }
     .card-header{
@@ -1375,9 +1376,10 @@
     }
     .sub_link_section p:first-of-type {
 
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 21px;
+        font-size: 16px;
+        font-weight: 500!important;
+        line-height: 19px;
+
     }
 
     .link_section_text {
@@ -1397,6 +1399,7 @@
 
     .sub_link_section{
         padding: 0;
+        margin-bottom: 40px;
     }
     .sub_link_section div div p{
         font-size: 16px;
@@ -1445,7 +1448,7 @@
         margin: 0 10px 0 10px;
     }
     #footer_logo_div div button{
-        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
         margin-right: 20px;
     }
     #footer_logo_div div button i{
@@ -1654,14 +1657,14 @@
         opacity: 0.7;
     }
     #main_contact_form{
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
         padding: 50px 40px;
         margin: 0 0;
 
     }
 
     #main_contact_form form div input{
-        border:1px solid whitesmoke;
+        border:2px solid whitesmoke;
         height: 50px;
     }
 
@@ -1716,7 +1719,7 @@
 }
 
 #blog_main_infos {
-    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 3px 7px 0 rgba(0,0,0,0) !important;
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 20px;
@@ -1724,4 +1727,18 @@
 }
 #list_blog_section{
     margin-bottom: 50px;
+}
+
+.card{
+    border-bottom: 1px;
+
+}
+
+#footer_link_div div a{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#footer_link_div div p {
+    font-size: 18px!important;
 }
