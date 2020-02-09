@@ -9,7 +9,7 @@ home2_three:
   heading21: Gestion intelligente des TMA
   heading22: Gestion intelligente des TMA
   heading23: Gestion intelligente des TMA
-  image21: img/3D.svg
+  image21: img/tma_1.png
   image22: /img/tma_2.png
   image23: /img/tma_3.png
   text21: >-
