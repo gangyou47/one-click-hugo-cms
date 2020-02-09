@@ -9,8 +9,8 @@ text: >-
   besoins et expliquer vos objectifs. Vous pourrez découvrir l’interface de
   Logment3D en partage d’écran et voir concrètement comment le logiciel
   s’utilise au quotidien.
-image: /img/2.jpg
-heading: This is heading of blog1
+image: img/discuss1.png
+heading: This is heading of blog1 updated
 tags:
   - IT
   - Sport
