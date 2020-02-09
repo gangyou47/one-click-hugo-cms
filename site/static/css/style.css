@@ -1714,3 +1714,14 @@
         display: none;
     }
 }
+
+#blog_main_infos {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    /*margin: 0 15px;*/
+}
+#list_blog_section{
+    margin-bottom: 50px;
+}
