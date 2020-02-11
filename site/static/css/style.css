@@ -152,7 +152,7 @@
 
 
 #third_section {
-    margin: 200px 0 0 0;
+    margin: 160px 0 0 0;
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
@@ -225,7 +225,7 @@
 
 
 #fourth_section {
-    margin: 200px 0 0 0;
+    margin: 120px 0 0 0;
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
@@ -245,7 +245,7 @@
 }
 
 #link_section {
-    margin: 150px 0;
+    margin: 120px 0;
     padding: 0;
     color: #2D3446;
 }
@@ -982,9 +982,25 @@
     #link_section {
         margin: 50px 0;
        
-}
+    }
+
+    #platform_banner_main_image{
+        margin-top: 150px;
+    }
 } 
 
+
+@media only screen and (max-width: 768px) {
+#platform_discuss_section_pc{
+    display: none;
+}
+#platform_discuss_section_mobile{
+    display: block;
+}
+
+
+
+}
 @media only screen and (max-width: 720px) {
 
     #logo {
