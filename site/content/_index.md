@@ -7,8 +7,8 @@ home1_banner:
     Gérez les simplement.  Améliorez l’expérience de vos clients
 home2_three:
   heading21: Gestion intelligente des TMA
-  heading22: Gestion intelligente des TMA
-  heading23: Gestion intelligente des TMA
+  heading22: Communiquez avec vos acquéreurs
+  heading23: Achetez et vendez mieux
   image21: img/tma_1.png
   image22: /img/tma_2.png
   image23: /img/tma_3.png
@@ -70,8 +70,8 @@ home5_experience:
     personnaliser de manière autonome.
 home6_cubic:
   heading61: Avec Plans de vente papier
-  heading62: Avec Plans de vente papier
-  image61: /img/3D.svg
+  heading62: Avec Visuels Logement 3D
+  image61: /img/cubic_1.png
   image62: /img/3D.svg
   text61: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius
