@@ -31,17 +31,17 @@
                <div id="title_under_image">
                     <p style=""><a href="/blog"> Blog &#62;</a>  <span>{{.Title}}</span></p>
                </div>
-               <p>{{.Params.Title}}</p>
-               <p style="text-align: left;font-size: 18px; font-weight: 500; line-height: 27px;">{{.Params.text}}
+               <p style="font-weight: 700;">{{.Params.Title}}</p>
+               <p style="text-align: left;font-size: 18px; font-weight: 700; line-height: 27px;">{{.Params.text}}
                </p>
                <div style="text-align: left">
                     {{ if .Params.all_subheading }}
                     {{range .Params.all_subheading}}
-                     <p style="font-size: 24px; font-weight: 500; margin: 50px 0 30px 0"> {{.subheading}}</p>
+                     <p style="font-size: 24px; font-weight: 700; margin: 50px 0 30px 0"> {{.subheading}}</p>
 
                     {{range .all_list}}
-                    <p  style="font-size: 18px; font-weight: 500; margin: 0 0 0 0">-{{.list}}</p>
-                    <p  style="font-size: 18px">{{.text}}</p>
+                    <p  style="font-size: 18px; font-weight: 700; margin: 0 0 0 0">-{{.list}}</p>
+                    <p  style="font-size: 18px; font-weight: 600">{{.text}}</p>
                     {{end}}
 
 

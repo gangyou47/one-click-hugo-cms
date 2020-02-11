@@ -1,4 +1,5 @@
-/*this is side nab part*/
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -16,7 +17,7 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     display: block;
     transition: 0.3s;
@@ -119,7 +120,7 @@
 
     color: #2D3446;
     font-size: 46px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 54px;
 }
 
@@ -129,7 +130,7 @@
 
 #banner_section div p:nth-child(2) {
     color: #2D3446;
-
+font-weight: 600;
     font-size: 18px;
     line-height: 27px;
 }
@@ -141,7 +142,7 @@
 
 #tma_section div p:first-of-type {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 20px;
 }
 
@@ -161,6 +162,8 @@
 #third_section div p:first-of-type {
     font-size: 32px;
     line-height: 38px;
+    font-weight: 600;
+    color: #2D3446;
     text-align: center;
 }
 
@@ -168,6 +171,7 @@
     font-size: 18px;
     line-height: 27px;
     text-align: center;
+    font-weight: 500;
     opacity: 0.75;
 }
 
@@ -192,6 +196,7 @@
 #right_discussion_section div div div h5 button {
     color: #2D3446;
     background-color: white;
+    font-weight: 700;
 }
 
 #right_discussion_section div div div h5 i {
@@ -220,7 +225,8 @@
 
 
 .card-body {
-    color: #2D3446;
+    color: rgba(45,52,70,0.5);
+    padding-top: 0!important;
 }
 
 
@@ -234,6 +240,7 @@
 #fourth_section div p:first-of-type {
     font-size: 32px;
     line-height: 38px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -242,6 +249,7 @@
     line-height: 27px;
     text-align: center;
     opacity: 0.75;
+    font-weight: 500;
 }
 
 #link_section {
@@ -253,7 +261,7 @@
 .sub_link_section p:first-of-type {
 
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 21px;
 }
 
@@ -263,6 +271,7 @@
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 
 #link_section div img {
@@ -280,7 +289,7 @@
     font-size: 18px;
     line-height: 24px;
     color: #F3A089;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
 
 }
 
@@ -345,7 +354,7 @@
     color: #2D3446;
 
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 19px;
 }
 
@@ -391,6 +400,7 @@
     color: #2D3446;
     font-size: 32px;
     line-height: 38px;
+    font-weight: 600;
 }
 
 
@@ -399,6 +409,7 @@
     color: #2D3446;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 500;
 }
 
 
@@ -421,6 +432,7 @@
     font-size: 32px;
     line-height: 38px;
     margin-top: 120px;
+    font-weight: 600;
 
 }
 
@@ -429,6 +441,7 @@
     color: #2D3446;
     font-size: 18px;
     line-height: 27px;
+     font-weight: 500;
 }
 
 #platform_discuss_section_second img {
@@ -445,7 +458,7 @@
 
 #platform_tma_section div p:first-of-type {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 20px;
 }
 
@@ -609,14 +622,15 @@
 #faq_right_discussion_section div div div h5 button {
     color: #2D3446;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 19px;
 }
 
 #faq_right_discussion_section div div .card-body {
     color: rgba(45, 52, 70, 0.5);
-    font-size: 16px;
+    font-size: 15px;
     line-height: 23px;
+    font-weight: 600
 }
 
 #faq_search_form {
@@ -659,7 +673,7 @@
 #contactus_section_1 div p:first-of-type {
     margin: 0 0 50px 0;
     font-size: 46px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 54px;
     padding-left: 88px;
 }
@@ -669,6 +683,7 @@
     line-height: 27px;
     padding-left: 88px;
     margin: 0 0 70px 0;
+
 }
 
 #main_contact_form {
@@ -685,14 +700,14 @@
 
 #main_contact_form form div label {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 19px;
     margin-top: 20px;
 }
 
 #main_contact_form form span {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 28px;
 
 }
@@ -708,6 +723,7 @@
     background-color: #F3A089;
     border: 1px solid #F3A089;
     width: 100%;
+    font-weight: 700;
 }
 
 
@@ -732,12 +748,12 @@
 }
 
 #footer_link_div div a {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
 }
 
 #footer_link_div div p {
-    font-size: 18px !important;
+    font-size: 15px !important;
 }
 
 .card div h5 span i {
@@ -839,7 +855,7 @@
         color: #2D3446;
 
         font-size: 14px;
-        font-weight: 500;
+   
         line-height: 14px;
     }
 
@@ -855,7 +871,7 @@
 
     #contactus_section {
         margin: 0 10px;
-        padding: 40px 0;
+        padding: 70px 0 0 0;
         height: 222px;
         background-color: #F3A089;
         text-align: center;
@@ -1068,7 +1084,7 @@
 
         color: #2D3446;
         font-size: 37px;
-        font-weight: 500;
+       
         line-height: 40px;
     }
 
@@ -1094,7 +1110,7 @@
 
     #tma_section div p:first-of-type {
         font-size: 18px;
-        font-weight: 500;
+    
         margin-top: 20px;
     }
 
@@ -1206,7 +1222,7 @@
     .sub_link_section p:first-of-type {
 
         font-size: 16px;
-        font-weight: 500 !important;
+   
         line-height: 19px;
 
     }
@@ -1235,7 +1251,7 @@
         font-size: 16px;
         line-height: 18px;
         color: #F3A089;
-        font-weight: 400 !important;
+        
 
     }
 
@@ -1317,7 +1333,7 @@
         color: #2D3446;
 
         font-size: 14px;
-        font-weight: 500;
+        
         line-height: 14px;
     }
 
@@ -1363,7 +1379,7 @@
 
         color: #2D3446;
         font-size: 36px;
-        font-weight: 500;
+   
         line-height: 40px;
     }
 
@@ -1432,7 +1448,7 @@
 
     #platform_tma_section div p:first-of-type {
         font-size: 18px;
-        font-weight: 500;
+    
         margin-top: 20px;
     }
 
@@ -1488,7 +1504,7 @@
     #contactus_section_1 div p:first-of-type {
         margin: 0 0 30px 0;
         font-size: 32px;
-        font-weight: 500;
+  
         line-height: 40px;
         padding-left: 20px;
     }
@@ -1515,14 +1531,14 @@
 
     #main_contact_form form div label {
         font-size: 16px;
-        font-weight: 500;
+
         line-height: 19px;
         margin-top: 20px;
     }
 
     #main_contact_form form span {
         font-size: 24px;
-        font-weight: 500;
+  
         line-height: 28px;
 
     }
