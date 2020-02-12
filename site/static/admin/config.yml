@@ -138,5 +138,45 @@ collections:
               {label: "Heading1", name: "heading1", widget: string},
               {label: "Text1", name: "text1", widget: "text"},
               {label: "Image1", name: "image1", widget: "image"}]}
+      - file: "site/content/term_use/_index.md"
+        label: "Terms of Condition"
+        name: "term_use"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Text", name: "text", widget: "text"}
+          - label: "All Subheading"
+            name: "all_subheading"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Subheading", name: "subheading", widget: string}
+              - label: "All List"
+                name: "all_list"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "List", name: "list", widget: string}
+                  - {label: "Text", name: "text", widget: "text"}
+      - file: "site/content/cookie_policy/_index.md"
+        label: "Cookie Policy"
+        name: "cookie_policy"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Text", name: "text", widget: "text"}
+          - label: "All Subheading"
+            name: "all_subheading"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Subheading", name: "subheading", widget: string}
+              - label: "All List"
+                name: "all_list"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "List", name: "list", widget: string}
+                  - {label: "Text", name: "text", widget: "text"}
 
 
