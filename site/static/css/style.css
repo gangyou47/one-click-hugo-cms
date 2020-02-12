@@ -1584,4 +1584,9 @@ font-weight: 600;
     #platform_banner_section {
         margin: 0 20px 20px 20px;
     }
+
+    #banner_section{
+        
+        display: inline-block;
+    }
 }
