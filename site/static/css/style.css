@@ -702,7 +702,7 @@ font-weight: 600;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #main_contact_form form span {
@@ -797,12 +797,12 @@ font-weight: 600;
     }
 
     #fourth_section {
-    margin: 80px 0 0 0;
+        margin: 80px 0 0 0;
+
+    }
+
 
 }
-
-
-
 @media screen and (max-width: 1072px) {
 
     .footer {
@@ -1003,6 +1003,10 @@ font-weight: 600;
     #platform_banner_main_image{
         margin-top: 150px;
     }
+
+    #home_banner_main_image{
+    margin-top: 180px;
+}
 } 
 
 
@@ -1435,7 +1439,7 @@ font-weight: 600;
 
     }
 
-    #platform_discussion_section_mobile_image img {
+    #platform_discussion_section_mobarile_image img {
         max-width: 100%;
         max-height: 100%;
     }
@@ -1533,7 +1537,7 @@ font-weight: 600;
         font-size: 16px;
 
         line-height: 19px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
 
     #main_contact_form form span {
@@ -1562,7 +1566,7 @@ font-weight: 600;
     }
 
     #contactus_section_1_second {
-        margin: 70px 0%;
+        margin: 70px 0;
     }
 
     #contactus_section_1_first {
