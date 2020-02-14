@@ -196,7 +196,7 @@ collections:
                 {label: "Heading23", name: "heading23", widget: string},
                 {label: "Text23", name: "text23", widget: "text"},
                 {label: "Image23", name: "image23", widget: "image"}]}
-           - {label: "Home3_improve", name: home3_improve, widget: object, fields: [
+          - {label: "Home3_improve", name: home3_improve, widget: object, fields: [
                 {label: "Heading31", name: "heading31", widget: string},
                 {label: "Text31", name: "text31", widget: "text"}]}
           - {label: "Home4_discuss", name: home4_discuss, widget: object, fields: [

@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b0fb73-77bd-4839-a322-56074c77cc71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/site/content/contactus-en/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/content/cookie_policy-en/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/content/faq-en/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/content/index-en/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/content/platform-en/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/content/term_use-en/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/contactus1_first_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/faq1_search_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/faq2_faq_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/footer_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/header_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/home1_banner_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/home2_three_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/home3_improve_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/home4_discuss_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/home5_experience_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/home6_cubic_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/home7_bottom_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/platform1_banner_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/partials/platform5_bottom_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/section/contactus-en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/section/cookie_policy-en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/section/faq-en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/section/index-en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/section/platform-en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/layouts/section/term_use-en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/_default/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/_default/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/section/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/section/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/section/cookie_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/section/cookie_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/section/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/section/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/section/platform.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/section/platform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/section/term_use.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/section/term_use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/site/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/static/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +82,7 @@
       <workItem from="1581462995868" duration="74000" />
       <workItem from="1581463091660" duration="33000" />
       <workItem from="1581645503172" duration="22101000" />
-      <workItem from="1581696180540" duration="732000" />
+      <workItem from="1581696180540" duration="1415000" />
     </task>
     <servers />
   </component>
