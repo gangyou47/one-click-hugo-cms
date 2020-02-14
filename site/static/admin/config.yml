@@ -178,5 +178,149 @@ collections:
                 fields:
                   - {label: "List", name: "list", widget: string}
                   - {label: "Text", name: "text", widget: "text"}
+      - file: "site/content/index-en/_index.md"
+        label: "English Home Page"
+        name: "home-en"
+        fields:
+          - {label: "Home1_banner", name: home1_banner, widget: object, fields: [
+                {label: "Heading", name: "heading", widget: string},
+                {label: "Text", name: "text", widget: "text"},
+                {label: "Image", name: "image1", widget: "image"}]}
+          - {label: "Home2_three", name: home2_three, widget: object, fields: [
+                {label: "Heading21", name: "heading21", widget: string},
+                {label: "Text21", name: "text21", widget: "text"},
+                {label: "Image21", name: "image21", widget: "image"},
+                {label: "Heading22", name: "heading22", widget: string},
+                {label: "Text22", name: "text22", widget: "text"},
+                {label: "Image22", name: "image22", widget: "image"},
+                {label: "Heading23", name: "heading23", widget: string},
+                {label: "Text23", name: "text23", widget: "text"},
+                {label: "Image23", name: "image23", widget: "image"}]}
+           - {label: "Home3_improve", name: home3_improve, widget: object, fields: [
+                {label: "Heading31", name: "heading31", widget: string},
+                {label: "Text31", name: "text31", widget: "text"}]}
+          - {label: "Home4_discuss", name: home4_discuss, widget: object, fields: [
+                {label: "Heading41", name: "heading41", widget: string},
+                {label: "Text41", name: "text41", widget: "text"},
+                {label: "Image41", name: "image41", widget: "image"},
+                {label: "Heading42", name: "heading42", widget: string},
+                {label: "Text42", name: "text42", widget: "text"},
+                {label: "Heading43", name: "heading43", widget: string},
+                {label: "Text43", name: "text43", widget: "text"},
+                {label: "Heading44", name: "heading44", widget: string},
+                {label: "Text44", name: "text44", widget: "text"},
+                {label: "Heading45", name: "heading45", widget: string},
+                {label: "Text45", name: "text45", widget: "text"},
+                {label: "Heading46", name: "heading46", widget: string},
+                {label: "Text46", name: "text46", widget: "text"}]}
+          - {label: "Home5_experience", name: home5_experience, widget: object, fields: [
+                {label: "Heading51", name: "heading51", widget: string},
+                {label: "Text51", name: "text51", widget: "text"}]}
+          - {label: "Home6_cubic", name: home6_cubic, widget: object, fields: [
+                {label: "Heading61", name: "heading61", widget: string},
+                {label: "Text61", name: "text61", widget: "text"},
+                {label: "Image61", name: "image61", widget: "image"},
+                {label: "Heading62", name: "heading62", widget: string},
+                {label: "Text62", name: "text62", widget: "text"},
+                {label: "Image62", name: "image62", widget: "image"}]}
+          - {label: "Home7_bottom", name: home7_bottom, widget: object, fields: [
+                {label: "Heading71", name: "heading71", widget: string},
+                {label: "Text71", name: "text71", widget: "text"}]}
+      - file: "site/content/platform-en/_index.md"
+        label: "English Platform Page"
+        name: "platform-en"
+        fields:
+          - {label: "Platform1_banner", name: platform1_banner, widget: object, fields: [
+                {label: "Heading1", name: "heading1", widget: string},
+                {label: "Text1", name: "text1", widget: "text"},
+                {label: "Image1", name: "image1", widget: "image"}]}
+          - {label: "Platform2_second_banner", name: platform2_second_banner, widget: object, fields: [
+                {label: "Heading2", name: "heading2", widget: string},
+                {label: "Text2", name: "text2", widget: "text"},
+                {label: "Image2", name: "image2", widget: "image"}]}
+          - {label: "Platform3_third_banner", name: platform3_third_banner, widget: object, fields: [
+                {label: "Heading3", name: "heading3", widget: string},
+                {label: "Text3", name: "text3", widget: "text"},
+                {label: "Image3", name: "image3", widget: "image"}]}
+          - {label: "platform4_three_section", name: platform4_three_section, widget: object, fields: [
+                {label: "Heading41", name: "heading41", widget: string},
+                {label: "Text41", name: "text41", widget: "text"},
+                {label: "Image41", name: "image41", widget: "image"},
+                {label: "Heading42", name: "heading42", widget: string},
+                {label: "Text42", name: "text42", widget: "text"},
+                {label: "Image42", name: "image42", widget: "image"},
+                {label: "Heading43", name: "heading43", widget: string},
+                {label: "Text43", name: "text43", widget: "text"},
+                {label: "Image43", name: "image43", widget: "image"}]}
+          - {label: "platform5_bottom", name: platform5_bottom, widget: object, fields: [
+                {label: "Heading5", name: "heading5", widget: string},
+                {label: "Text5", name: "text5", widget: "text"}]}
+      - file: "site/content/faq-en/_index.md"
+        label: "English FAQ Page"
+        name: "faq-en"
+        fields:
+          - {label: "Faq2_faq", name: faq2_faq, widget: object, fields: [
+                {label: "Heading21", name: "heading21", widget: string},
+                {label: "Text21", name: "text21", widget: "text"},
+                {label: "Heading22", name: "heading22", widget: string},
+                {label: "Text22", name: "text22", widget: "text"},
+                {label: "Heading23", name: "heading23", widget: string},
+                {label: "Text23", name: "text23", widget: "text"},
+                {label: "Heading24", name: "heading24", widget: string},
+                {label: "Text24", name: "text24", widget: "text"},
+                {label: "Heading25", name: "heading25", widget: string},
+                {label: "Text25", name: "text25", widget: "text"},
+                {label: "Heading26", name: "heading26", widget: string},
+                {label: "Text26", name: "text26", widget: "text"},
+                {label: "Heading27", name: "heading27", widget: string},
+                {label: "Text27", name: "text27", widget: "text"}]}
+      - file: "site/content/contactus-en/_index.md"
+        label: "English Contact Page"
+        name: "contactus-en"
+        fields:
+          - {label: "Contactus1_first", name: contactus1_first, widget: object, fields: [
+                {label: "Heading1", name: "heading1", widget: string},
+                {label: "Text1", name: "text1", widget: "text"},
+                {label: "Image1", name: "image1", widget: "image"}]}
+      - file: "site/content/term_use-en/_index.md"
+        label: "English Terms of Condition"
+        name: "term_use-en"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Text", name: "text", widget: "text"}
+          - label: "All Subheading"
+            name: "all_subheading"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Subheading", name: "subheading", widget: string}
+              - label: "All List"
+                name: "all_list"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "List", name: "list", widget: string}
+                  - {label: "Text", name: "text", widget: "text"}
+      - file: "site/content/cookie_policy-en/_index.md"
+        label: "English Cookie Policy"
+        name: "cookie_policy-en"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Text", name: "text", widget: "text"}
+          - label: "All Subheading"
+            name: "all_subheading"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Subheading", name: "subheading", widget: string}
+              - label: "All List"
+                name: "all_list"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "List", name: "list", widget: string}
+                  - {label: "Text", name: "text", widget: "text"}
 
 

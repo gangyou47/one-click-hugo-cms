@@ -1,0 +1,39 @@
+<div class="container" id="faq_search_form"  style="text-align: center">
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="input-group" >
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend" ><i class="fa fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search" aria-describedby="validationTooltipUsernamePrepend" required>
+
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+
+<script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("accordionExample");
+        li = ul.getElementsByClassName("card");
+        for (i = 0; i < li.length; i++) {
+
+            a = li[i].getElementsByTagName("button")[0];
+
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+

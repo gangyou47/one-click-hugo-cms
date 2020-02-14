@@ -60,6 +60,11 @@
 <!--     </div>-->
      {{ partial "footer" . }}
 
-
+     <script>
+          $(document).ready(function() {
+               var en_or_fr = "spanish";
+               localStorage.setItem("storageName",en_or_fr);
+          });
+     </script>
 </body>
 </html>

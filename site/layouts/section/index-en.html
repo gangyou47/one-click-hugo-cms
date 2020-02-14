@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" lang="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,34 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome-master/css/font-awesome.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{"css/font-awesome-master/css/font-awesome.css" | relURL }} ">
+    <link rel="stylesheet" href="{{"css/style.css" | relURL }} ">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript"
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
 </head>
-
 <body style="font-family: 'Raleway', sans-serif;">
 
-{{ partial "header" (dict "Kind" .Kind "Template" "List") }}
 
-{{ partial "home1_banner" .Params.home1_banner }}
+{{ partial "header_en" (dict "Kind" .Kind "Template" "List") }}
 
-{{ partial "home2_three" .Params.home2_three}}
+{{ partial "home1_banner_en" .Params.home1_banner }}
 
-{{ partial "home3_improve" .Params.home3_improve}}
+{{ partial "home2_three_en" .Params.home2_three}}
 
-{{ partial "home4_discuss" .Params.home4_discuss}}
+{{ partial "home3_improve_en" .Params.home3_improve}}
 
-{{ partial "home5_experience" .Params.home5_experience }}
+{{ partial "home4_discuss_en" .Params.home4_discuss}}
 
-{{ partial "home6_cubic" .Params.home6_cubic}}
+{{ partial "home5_experience_en" .Params.home5_experience }}
 
-{{ partial "home7_bottom" .Params.home7_bottom }}
+{{ partial "home6_cubic_en" .Params.home6_cubic}}
 
-{{ partial "footer"  }}
+{{ partial "home7_bottom_en" .Params.home7_bottom }}
+
+{{ partial "footer_en"  }}
+
+
 
 <script>
     $(function() {
@@ -43,10 +45,11 @@
         });
     });
 </script>
+
 <script>
     $(document).ready(function() {
-        var en_or_fr = "spanish";
-        localStorage.setItem("storageName",en_or_fr);
+            var en_or_fr = "english";
+            localStorage.setItem("storageName",en_or_fr);
     });
 </script>
 </body>

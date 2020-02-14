@@ -23,7 +23,7 @@
 
 {{ partial "faq2_faq"  .Params.faq2_faq  }}
 
-{{ partial "footer" }}
+{{ partial "footer" .}}
 
 <script>
     $(function() {
@@ -33,7 +33,12 @@
         });
     });
 </script>
-
+<script>
+    $(document).ready(function() {
+        var en_or_fr = "spanish";
+        localStorage.setItem("storageName",en_or_fr);
+    });
+</script>
 
 </body>
 </html>

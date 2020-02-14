@@ -14,11 +14,16 @@
              src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
-
+<style>
+     #language_select{
+          display: none;
+     }
+</style>
 
 
 <body style="font-family: 'Raleway', sans-serif;">
      {{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
+<!--     {{ partial "header_en" (dict "Kind" .Kind "Template" "Single") }}-->
 
 
 
@@ -67,7 +72,48 @@
 <!--          <div style="font-size:18px;">{{.Content}}</div>-->
 <!--     </div>-->
      {{ partial "footer" . }}
+     {{ partial "footer_en"  }}
 
+     <script>
+          $(document).ready(function() {
+               var how_language=localStorage.getItem("storageName");
+               if (how_language==="english"){
+                    $(".show_in_english").show();
+                    $(".show_in_spanish").hide();
 
+               }
+               else {
+                    $(".show_in_english").hide();
+                    $(".show_in_spanish").show();
+               }
+
+          });
+     </script>
+
+     <script>
+          $(document).ready(function() {
+
+               var how_language=localStorage.getItem("storageName");
+
+               if (how_language==="english"){
+                    $(".go_to_homepage").attr("href", "/index-en");
+                    $(".go_to_faq").attr("href", "/faq-en");
+                    $(".go_to_contactus").attr("href", "/contactus-en");
+                    $(".go_to_platform").attr("href", "/platform-en");
+                    $(".go_to_platform").text("On the Platform");
+                    $(".go_to_login").text("To Login");
+                    $(".go_to_contactus_button").text("Request a demo");
+
+               }
+               else {
+                    $(".go_to_homepage").attr("href", "/");
+                    $(".go_to_faq").attr("href", "/faq");
+                    $(".go_to_contactus").attr("href", "/contactus");
+                    $(".go_to_platform").attr("href", "/platform");
+                    $(".go_to_platform").text("La platforme");
+               }
+
+          });
+     </script>
 </body>
 </html>

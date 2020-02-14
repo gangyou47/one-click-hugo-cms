@@ -1,3 +1,24 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 10px 16px 0 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
 
 
 .sidenav {
@@ -982,13 +1003,13 @@ font-weight: 600;
 
 @media screen and (max-width: 968px) {
 
-   #banner_section div p:first-of-type {
-    color: #2D3446;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 34px;
+    #banner_section div p:first-of-type {
+        color: #2D3446;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 34px;
+    }
 }
-
 @media screen and (max-width: 918px) {
 
     #discussion_image {
