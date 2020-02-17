@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>faq</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{"css/font-awesome-master/css/font-awesome.css" | relURL }} ">
@@ -19,26 +20,25 @@
 
 {{ partial "header_en" (dict "Kind" .Kind "Template" "List") }}
 
-{{ partial "faq1_search_en"  }}
+{{ partial "faq1_search_en" }}
 
-{{ partial "faq2_faq_en"  .Params.faq2_faq  }}
+{{ partial "faq2_faq_en" .Params.faq2_faq }}
 
-{{ partial "footer_en" }}
 
 <script>
-    $(function() {
-        $(".card").click(function() {
+    $(function () {
+        $(".card").click(function () {
             $(".card").removeClass("card_actived");
             $(this).addClass("card_actived");
         });
     });
 </script>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         var en_or_fr = "english";
-        localStorage.setItem("storageName",en_or_fr);
+        localStorage.setItem("storageName", en_or_fr);
     });
 </script>
-
+{{ partial "footer_en" }}
 </body>
 </html>

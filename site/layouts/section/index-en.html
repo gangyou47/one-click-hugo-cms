@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{"css/font-awesome-master/css/font-awesome.css" | relURL }} ">
@@ -33,13 +34,10 @@
 
 {{ partial "home7_bottom_en" .Params.home7_bottom }}
 
-{{ partial "footer_en"  }}
-
-
 
 <script>
-    $(function() {
-        $(".card").click(function() {
+    $(function () {
+        $(".card").click(function () {
             $(".card").removeClass("card_actived");
             $(this).addClass("card_actived");
         });
@@ -47,10 +45,12 @@
 </script>
 
 <script>
-    $(document).ready(function() {
-            var en_or_fr = "english";
-            localStorage.setItem("storageName",en_or_fr);
+    $(document).ready(function () {
+        var en_or_fr = "english";
+        localStorage.setItem("storageName", en_or_fr);
     });
 </script>
+
+{{ partial "footer_en" .}}
 </body>
 </html>

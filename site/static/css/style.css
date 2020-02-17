@@ -4,7 +4,7 @@
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -15,10 +15,13 @@
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+    background-color: #ddd;
+}
 
-.show {display: block;}
-
+.show {
+    display: block;
+}
 
 
 .sidenav {
@@ -63,12 +66,11 @@
 }
 
 
-
 /*This is homepage part*/
 
-#show_in_mobile_another{
-        display: none;
-    }
+#show_in_mobile_another {
+    display: none;
+}
 
 
 #logo {
@@ -88,10 +90,11 @@
     color: #455F8E !important;
 }
 
-#language_select {
+.language_select {
     width: 21px;
     height: 21px;
 }
+
 
 #nav_connect {
     margin: 0 40px
@@ -147,7 +150,7 @@
 
 #banner_section div p:nth-child(2) {
     color: #2D3446;
-font-weight: 600;
+    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
 }
@@ -242,8 +245,8 @@ font-weight: 600;
 
 
 .card-body {
-    color: rgba(45,52,70,0.5);
-    padding-top: 0!important;
+    color: rgba(45, 52, 70, 0.5);
+    padding-top: 0 !important;
 }
 
 
@@ -458,7 +461,7 @@ font-weight: 600;
     color: #2D3446;
     font-size: 18px;
     line-height: 27px;
-     font-weight: 500;
+    font-weight: 500;
 }
 
 #platform_discuss_section_second img {
@@ -887,7 +890,7 @@ font-weight: 600;
         color: #2D3446;
 
         font-size: 14px;
-   
+
         line-height: 14px;
     }
 
@@ -926,21 +929,21 @@ font-weight: 600;
 }
 
 @media screen and (max-width: 1072px) {
-      #platform_banner_section {
-         margin: 20px 20px 80px 20px;
-      }
+    #platform_banner_section {
+        margin: 20px 20px 80px 20px;
+    }
 }
 
 @media screen and (max-width: 1070px) {
-      #nav_connect {
-         margin: 0 20px;
-      }
+    #nav_connect {
+        margin: 0 20px;
+    }
 }
 
 @media screen and (max-width: 1070px) {
-      #discussion_image {
-       margin-top: 50px;
-      }
+    #discussion_image {
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -1010,6 +1013,7 @@ font-weight: 600;
         line-height: 34px;
     }
 }
+
 @media screen and (max-width: 918px) {
 
     #discussion_image {
@@ -1045,8 +1049,8 @@ font-weight: 600;
     #platform_banner_main_image {
         margin-top: 150px;
     }
- 
-} 
+
+}
 
 @media screen and (max-width: 1305px) {
 
@@ -1057,19 +1061,20 @@ font-weight: 600;
 
 
 @media only screen and (max-width: 768px) {
-            #platform_discuss_section_pc{
-                display: none;
-            }
-            #platform_discuss_section_mobile{
-                display: block;
-            }
+    #platform_discuss_section_pc {
+        display: none;
+    }
 
-            #banner_section div p:first-of-type {
-                color: #2D3446;
-                font-size: 46px;
-                font-weight: 700;
-                line-height: 56px;
-            }
+    #platform_discuss_section_mobile {
+        display: block;
+    }
+
+    #banner_section div p:first-of-type {
+        color: #2D3446;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 56px;
+    }
 }
 
 
@@ -1092,7 +1097,7 @@ font-weight: 600;
         color: #455F8E !important;
     }
 
-    #language_select {
+    .language_select {
         width: 21px;
         height: 21px;
     }
@@ -1140,7 +1145,7 @@ font-weight: 600;
 
         color: #2D3446;
         font-size: 37px;
-       
+
         line-height: 40px;
     }
 
@@ -1166,7 +1171,7 @@ font-weight: 600;
 
     #tma_section div p:first-of-type {
         font-size: 18px;
-    
+
         margin-top: 20px;
     }
 
@@ -1278,7 +1283,7 @@ font-weight: 600;
     .sub_link_section p:first-of-type {
 
         font-size: 16px;
-   
+
         line-height: 19px;
 
     }
@@ -1307,7 +1312,7 @@ font-weight: 600;
         font-size: 16px;
         line-height: 18px;
         color: #F3A089;
-        
+
 
     }
 
@@ -1389,7 +1394,7 @@ font-weight: 600;
         color: #2D3446;
 
         font-size: 14px;
-        
+
         line-height: 14px;
     }
 
@@ -1428,6 +1433,7 @@ font-weight: 600;
 
     #platform_banner_section {
         color: #2D3446;
+        display: inline-block;
 
     }
 
@@ -1435,7 +1441,7 @@ font-weight: 600;
 
         color: #2D3446;
         font-size: 36px;
-   
+
         line-height: 40px;
     }
 
@@ -1504,7 +1510,7 @@ font-weight: 600;
 
     #platform_tma_section div p:first-of-type {
         font-size: 18px;
-    
+
         margin-top: 20px;
     }
 
@@ -1560,7 +1566,7 @@ font-weight: 600;
     #contactus_section_1 div p:first-of-type {
         margin: 0 0 30px 0;
         font-size: 32px;
-  
+
         line-height: 40px;
         padding-left: 20px;
     }
@@ -1594,7 +1600,7 @@ font-weight: 600;
 
     #main_contact_form form span {
         font-size: 24px;
-  
+
         line-height: 28px;
 
     }
@@ -1626,8 +1632,8 @@ font-weight: 600;
     }
 
     #home_banner_main_image, #discussion_image {
-    margin-top: 50px;
-   }
+        margin-top: 50px;
+    }
 
     #home_banner_main_image, #discussion_image, #platform_banner_main_image {
         margin-top: 30px;
@@ -1637,17 +1643,20 @@ font-weight: 600;
         margin: 0 20px 20px 20px;
     }
 
-    #banner_section{
-        
+    #banner_section {
+
         display: inline-block;
     }
 
-    #show_in_mobile_another{
+    #show_in_mobile_another {
         display: block;
     }
-    .show_in_mobile{
+
+    .show_in_mobile {
         display: none;
     }
+
+
 }
 
 @media screen and (max-height: 450px) {

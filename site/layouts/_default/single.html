@@ -1,119 +1,107 @@
 <html>
 
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <title>post</title>
-       <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-     <link rel="stylesheet" href="{{"css/font-awesome-master/css/font-awesome.css" | relURL }} ">
-     <link rel="stylesheet" href="{{"css/style.css" | relURL }} ">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-     <script type="text/javascript"
-             src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>post</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{"css/font-awesome-master/css/font-awesome.css" | relURL }} ">
+    <link rel="stylesheet" href="{{"css/style.css" | relURL }} ">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <style>
-     #language_select{
-          display: none;
-     }
+    #language_select {
+        display: none;
+    }
 </style>
 
 
 <body style="font-family: 'Raleway', sans-serif;">
-     {{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
-<!--     {{ partial "header_en" (dict "Kind" .Kind "Template" "Single") }}-->
+{{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
+
+<div class="container" style="text-align: center">
 
 
+    <div class="" id="single_section_1">
+        <img src="/{{.Params.image}}">
 
-     <div class="container" style="text-align: center">
+        <div id="title_under_image">
+            <p style=""><a href="/blog"> Blog &#62;</a> <span>{{.Title}}</span></p>
+        </div>
+        <p style="font-weight: 700;">{{.Params.Title}}</p>
+        <p style="text-align: left;font-size: 18px; font-weight: 700; line-height: 27px;">{{.Params.text}}
+        </p>
+        <div style="text-align: left">
+            {{ if .Params.all_subheading }}
+            {{range .Params.all_subheading}}
+            <p style="font-size: 24px; font-weight: 700; margin: 50px 0 30px 0"> {{.subheading}}</p>
 
-
-          <div class="" id="single_section_1">
-               <img src="/{{.Params.image}}">
-
-               <div id="title_under_image">
-                    <p style=""><a href="/blog"> Blog &#62;</a>  <span>{{.Title}}</span></p>
-               </div>
-               <p style="font-weight: 700;">{{.Params.Title}}</p>
-               <p style="text-align: left;font-size: 18px; font-weight: 700; line-height: 27px;">{{.Params.text}}
-               </p>
-               <div style="text-align: left">
-                    {{ if .Params.all_subheading }}
-                    {{range .Params.all_subheading}}
-                     <p style="font-size: 24px; font-weight: 700; margin: 50px 0 30px 0"> {{.subheading}}</p>
-
-                    {{range .all_list}}
-                    <p  style="font-size: 18px; font-weight: 700; margin: 0 0 0 0">-{{.list}}</p>
-                    <p  style="font-size: 18px; font-weight: 600">{{.text}}</p>
-                    {{end}}
+            {{range .all_list}}
+            <p style="font-size: 18px; font-weight: 700; margin: 0 0 0 0">-{{.list}}</p>
+            <p style="font-size: 18px; font-weight: 600">{{.text}}</p>
+            {{end}}
 
 
-                    {{end}}
-                    {{end}}
-               </div>
+            {{end}}
+            {{end}}
+        </div>
 
 
+        <div id="single_section_1_sub">
+            <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }} <span>J{{.Params.Author}}</span></p>
+        </div>
+
+    </div>
+</div>
 
 
-               <div id="single_section_1_sub">
-                    <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }} <span>J{{.Params.Author}}</span></p>
-               </div>
+{{ partial "footer" . }}
+{{ partial "footer_en" }}
 
-          </div>
-     </div>
+<script>
+    $(document).ready(function () {
+        var how_language = localStorage.getItem("storageName");
+        if (how_language === "english") {
+            $(".show_in_english").show();
+            $(".show_in_spanish").hide();
 
+        } else {
+            $(".show_in_english").hide();
+            $(".show_in_spanish").show();
+        }
 
-<!--     <div style="margin:25px;">-->
-<!--          <h1>{{.Title}}</h1>-->
-<!--          <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>-->
-<!--          <div style="color:grey; font-size:16px;">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>-->
-<!--          <div style="font-size:18px;">{{.Content}}</div>-->
-<!--     </div>-->
-     {{ partial "footer" . }}
-     {{ partial "footer_en"  }}
+    });
+</script>
 
-     <script>
-          $(document).ready(function() {
-               var how_language=localStorage.getItem("storageName");
-               if (how_language==="english"){
-                    $(".show_in_english").show();
-                    $(".show_in_spanish").hide();
+<script>
+    $(document).ready(function () {
 
-               }
-               else {
-                    $(".show_in_english").hide();
-                    $(".show_in_spanish").show();
-               }
+        var how_language = localStorage.getItem("storageName");
 
-          });
-     </script>
+        if (how_language === "english") {
+            $(".go_to_homepage").attr("href", "/index-en");
+            $(".go_to_faq").attr("href", "/faq-en");
+            $(".go_to_contactus").attr("href", "/contactus-en");
+            $(".go_to_platform").attr("href", "/platform-en");
+            $(".go_to_platform").text("On the Platform");
+            $(".go_to_login").text("To Login");
+            $(".go_to_contactus_button").text("Request a demo");
 
-     <script>
-          $(document).ready(function() {
+        } else {
+            $(".go_to_homepage").attr("href", "/");
+            $(".go_to_faq").attr("href", "/faq");
+            $(".go_to_contactus").attr("href", "/contactus");
+            $(".go_to_platform").attr("href", "/platform");
+            $(".go_to_platform").text("La platforme");
+        }
 
-               var how_language=localStorage.getItem("storageName");
-
-               if (how_language==="english"){
-                    $(".go_to_homepage").attr("href", "/index-en");
-                    $(".go_to_faq").attr("href", "/faq-en");
-                    $(".go_to_contactus").attr("href", "/contactus-en");
-                    $(".go_to_platform").attr("href", "/platform-en");
-                    $(".go_to_platform").text("On the Platform");
-                    $(".go_to_login").text("To Login");
-                    $(".go_to_contactus_button").text("Request a demo");
-
-               }
-               else {
-                    $(".go_to_homepage").attr("href", "/");
-                    $(".go_to_faq").attr("href", "/faq");
-                    $(".go_to_contactus").attr("href", "/contactus");
-                    $(".go_to_platform").attr("href", "/platform");
-                    $(".go_to_platform").text("La platforme");
-               }
-
-          });
-     </script>
+    });
+</script>
 </body>
 </html>

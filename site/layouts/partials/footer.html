@@ -1,61 +1,73 @@
 <div class="footer show_in_spanish">
 
-     <div class="row"  id="footer_logo_div">
-          <div class="col-md-3">
-               <img  id="footer_logo" src="{{"img/logo.png" | relURL }}" >
-               <p style="float: right;margin-top: 10px" id="show_in_mobile_another" >
-                    <i class="fa fa-envelope" style="font-size: 22px"></i>&nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-phone" style="font-size: 22px"></i>
-               </p>
+    <div class="row" id="footer_logo_div">
+        <div class="col-md-3">
+            <a href="/"> <img id="footer_logo" src="{{"img/logo1.png" | relURL }}" ></a>
+            <p style="float: right;margin-top: 10px" id="show_in_mobile_another">
+                <i class="fa fa-envelope" style="font-size: 22px"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-phone" style="font-size: 22px"></i>
+            </p>
 
-          </div>
-          <div class="col-md-9">
-               <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px" ><i class="fa fa-envelope" ></i>  jk@logement3d.com</button>
-               <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px"><i class="fa fa-phone" style="font-weight: 600"></i>+33 7 61 77 78 32</button>
-               <p style="float: right;" class="show_in_mobile">
-                    <i class="fa fa-envelope" style="font-size: 22px"></i>&nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-phone" style="font-size: 22px"></i>
-               </p>
-          </div>
-     </div>
+        </div>
+        <div class="col-md-9">
+            <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px"><i
+                    class="fa fa-envelope"></i> jk@logement3d.com
+            </button>
+            <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px"><i
+                    class="fa fa-phone" style="font-weight: 600"></i>+33 7 61 77 78 32
+            </button>
+            <p style="float: right;" class="show_in_mobile">
+                <i class="fa fa-envelope" style="font-size: 22px"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-phone" style="font-size: 22px"></i>
+            </p>
+        </div>
+    </div>
 
-     <div class="row" style="" id="footer_link_div">
-          <div class="col-12 col-sm-12 col-md-3">
-               <p style=>Suivez-nous</p>
+    <div class="row" style="" id="footer_link_div">
+        <div class="col-12 col-sm-12 col-md-3">
+            <p style=>Suivez-nous</p>
 
-               <i class="fa fa-facebook-square " style="font-size: 25px"></i>
-               <i class="fa fa-instagram " style="font-size: 25px"></i>
-               <i class="fa fa-twitter " style="font-size: 25px"></i>
-               <i class="fa fa-vimeo-square" style="font-size: 25px"></i>
-               <a href="https://fr.linkedin.com/company/logement-3d" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 25px"></i></a>
+            <i class="fa fa-facebook-square " style="font-size: 25px"></i>
+            <i class="fa fa-instagram " style="font-size: 25px"></i>
+            <i class="fa fa-twitter " style="font-size: 25px"></i>
+            <i class="fa fa-vimeo-square" style="font-size: 25px"></i>
+            <a href="https://fr.linkedin.com/company/logement-3d" target="_blank"><i class="fa fa-linkedin-square"
+                                                                                     style="font-size: 25px"></i></a>
 
-          </div>
-          <div class="col -6 col-sm-6 col-md-3" >
-               <p style="/">Logement3D</p>
-               <a href="/platform">La plateforme</a><br>
-               <a href="/contactus">Demander une démo</a><br>
+        </div>
+        <div class="col -6 col-sm-6 col-md-3">
+            <p style="/">Logement 3D</p>
+            <a href="/platform">La plateforme</a><br>
+            <a href="/contactus">Demander une démo</a><br>
 
-          </div>
-          <div class="col-6  col-sm-6 col-md-3">
-               <p style=>Suivez-nous</p>
-               <a href="/faq">FAQ</a><br>
-               <a href="/term_use">Conditions d’utilisation</a><br>
-               <a href="/cookie_policy">Politique de cookies</a><br>
-          </div>
-          <div class="col-6 col-sm-6 col-md-3 ">
-               <p style=>À propos</p>
-               <a href="/contactus">Nous contacter</a><br>
-               <a href="/blog">Blog</a><br>
+        </div>
+        <div class="col-6  col-sm-6 col-md-3">
+            <p style=>Ressources</p>
+            <a href="/faq">FAQ</a><br>
+            <a href="/term_use">Conditions d’utilisation</a><br>
+            <a href="/cookie_policy">Politique de cookies</a><br>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 ">
+            <p style=>À propos</p>
+            <a href="/contactus">Nous contacter</a><br>
+            <a href="/blog">Blog</a><br>
 
-          </div>
-     </div>
+        </div>
+    </div>
 
 </div>
 
+<script>
+    $(document).ready(function () {
 
+        var how_language = localStorage.getItem("storageName");
 
+        if (how_language === "english") {
+            $(".france_flag_language").hide();
+        } else {
+            $(".england_flag_language").hide();
+        }
 
-<!--<div style="height:35px;"></div>-->
-<!--<div style=" position:fixed; color: white; height:35px; background-color:#757575; bottom:0px; text-align:center; width:99%">-->
-<!--     <p style="margin:10px; "><a style="color: white; " target="_blank" href="http://www.giraffeacademy.com/">Giraffe Academy</a> - Hugo Theme</p>-->
-<!--</div>-->
+    });
+</script>
+

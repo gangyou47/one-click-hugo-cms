@@ -5,7 +5,20 @@
      <a href="/blog">Blog</a>
      <a class="go_to_faq" href="/faq">FAQ</a>
       <a class="go_to_contactus" href="/contactus">Contact</a>
-     <a href="#" class="go_to_login">Se Connecter</a>
+     <a href="" class="go_to_login">Se Connecter</a>
+
+     <div class="dropdown" style="padding-left: 32px; padding-top: 10px">
+          <img onclick="myFunctionBtn_mobile()" class="dropbtn france_flag_language language_select" src="{{"img/france_flag.png" | relURL }}" >
+          <img onclick="myFunctionBtn_mobile()" class="dropbtn england_flag_language language_select" src="{{"img/england_flag.png" | relURL }}" >
+          <div id="myDropdown_mobile" class="dropdown-content">
+
+               <p style="margin-top: 10px" onclick="goToEnglish();">
+                    <img  class="language_select" style="margin-right: 20px" src="{{"img/england_flag.png" | relURL }}" >English</p>
+               <p onclick="goToFrench();">
+                    <img class="language_select" style="margin-right: 20px" src="{{"img/france_flag.png" | relURL }}" >français</p>
+
+          </div>
+     </div>
      <div style="text-align: center;margin-top: 230px">
           <a class="go_to_contactus" href="/contactus"> <button class="btn go_to_contactus_button"  style="background-color: white; color: #F3A089">Demander une démo</button></a>
      </div>
@@ -59,10 +72,14 @@
 
 
                <div class="dropdown">
-                    <img onclick="myFunctionBtn()" class="dropbtn" src="{{"img/england_flag.png" | relURL }}" id="language_select">
+                    <img onclick="myFunctionBtn()" class="dropbtn france_flag_language language_select" src="{{"img/france_flag.png" | relURL }}" >
+                    <img onclick="myFunctionBtn()" class="dropbtn england_flag_language language_select" src="{{"img/england_flag.png" | relURL }}">
                     <div id="myDropdown" class="dropdown-content">
-                         <p style="margin-top: 10px" onclick="goToEnglish();">English</p>
-                         <p onclick="goToFrench();">French</p>
+
+                         <p style="margin-top: 10px" onclick="goToEnglish();">
+                              <img class="language_select" style="margin-right: 20px" src="{{"img/england_flag.png" | relURL }}">English</p>
+                         <p onclick="goToFrench();">
+                              <img class="language_select" style="margin-right: 20px" src="{{"img/france_flag.png" | relURL }}" >français</p>
 
                     </div>
                </div>
@@ -179,6 +196,28 @@
                     // Close the dropdown if the user clicks outside of it
                     window.onclick = function(event) {
                          // alert("ddd")
+                         if (!event.target.matches('.dropbtn')) {
+                              var dropdowns = document.getElementsByClassName("dropdown-content");
+                              var i;
+                              for (i = 0; i < dropdowns.length; i++) {
+                                   var openDropdown = dropdowns[i];
+                                   if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');
+                                   }
+                              }
+                         }
+                    }
+               </script>
+
+               <script>
+                    /* When the user clicks on the button,
+                    toggle between hiding and showing the dropdown content */
+                    function myFunctionBtn_mobile() {
+                         document.getElementById("myDropdown_mobile").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function(event) {
                          if (!event.target.matches('.dropbtn')) {
                               var dropdowns = document.getElementsByClassName("dropdown-content");
                               var i;

@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>platform</title>
-      <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{"css/font-awesome-master/css/font-awesome.css" | relURL }} ">
@@ -22,19 +23,21 @@
 
 {{ partial "platform2_second_banner" .Params.platform2_second_banner }}
 
-{{ partial  "platform3_third_banner" .Params.platform3_third_banner }}
+{{ partial "platform3_third_banner" .Params.platform3_third_banner }}
 
 {{ partial "platform4_three_section" .Params.platform4_three_section }}
 
-{{ partial "platform5_bottom"  .Params.platform5_bottom }}
+{{ partial "platform5_bottom" .Params.platform5_bottom }}
 
-{{ partial "footer" }}
+
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         var en_or_fr = "spanish";
-        localStorage.setItem("storageName",en_or_fr);
+        localStorage.setItem("storageName", en_or_fr);
     });
 </script>
+
+{{ partial "footer" .}}
 
 </body>
 </html>

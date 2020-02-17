@@ -1,17 +1,21 @@
 <div class="footer show_in_english">
 
-    <div class="row"  id="footer_logo_div">
+    <div class="row" id="footer_logo_div">
         <div class="col-md-3">
-            <img  id="footer_logo" src="{{"img/logo.png" | relURL }}" >
-            <p style="float: right;margin-top: 10px" id="show_in_mobile_another" >
+            <a href="/index-en"> <img id="footer_logo" src="{{"img/logo1.png" | relURL }}" ></a>
+            <p style="float: right;margin-top: 10px" id="show_in_mobile_another">
                 <i class="fa fa-envelope" style="font-size: 22px"></i>&nbsp;&nbsp;&nbsp;
                 <i class="fa fa-phone" style="font-size: 22px"></i>
             </p>
 
         </div>
         <div class="col-md-9">
-            <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px" ><i class="fa fa-envelope" ></i>  jk@logement3d.com</button>
-            <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px"><i class="fa fa-phone" style="font-weight: 600"></i>+33 7 61 77 78 32</button>
+            <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px"><i
+                    class="fa fa-envelope"></i> jk@logement3d.com
+            </button>
+            <button class="btn btn-default button_for_hide" style="font-weight: 600; font-size: 12px"><i
+                    class="fa fa-phone" style="font-weight: 600"></i>+33 7 61 77 78 32
+            </button>
             <p style="float: right;" class="show_in_mobile">
                 <i class="fa fa-envelope" style="font-size: 22px"></i>&nbsp;&nbsp;&nbsp;
                 <i class="fa fa-phone" style="font-size: 22px"></i>
@@ -27,17 +31,19 @@
             <i class="fa fa-instagram " style="font-size: 25px"></i>
             <i class="fa fa-twitter " style="font-size: 25px"></i>
             <i class="fa fa-vimeo-square" style="font-size: 25px"></i>
-            <a href="https://fr.linkedin.com/company/logement-3d" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 25px"></i></a>
+            <a href="https://fr.linkedin.com/company/logement-3d" target="_blank"><i class="fa fa-linkedin-square"
+                                                                                     style="font-size: 25px"></i></a>
 
         </div>
-        <div class="col -6 col-sm-6 col-md-3" >
-            <p style="">Logement3D</p>
+        <div class="col -6 col-sm-6 col-md-3">
+            <p style="">Logement 3D</p>
             <a href="/platform-en">The platform</a><br>
             <a href="/contactus-en">Request a demo</a><br>
 
         </div>
         <div class="col-6  col-sm-6 col-md-3">
-            <p style=>Follow us</p>
+            <p>
+                Resources</p>
             <a href="/faq-en">FAQ</a><br>
             <a href="/term_use-en">Terms of use</a><br>
             <a href="/cookie_policy-en">Cookies policy</a><br>
@@ -52,7 +58,19 @@
 
 </div>
 
+<script>
+    $(document).ready(function () {
 
+        var how_language = localStorage.getItem("storageName");
+
+        if (how_language === "english") {
+            $(".france_flag_language").hide();
+        } else {
+            $(".england_flag_language").hide();
+        }
+
+    });
+</script>
 
 
 <!--<div style="height:35px;"></div>-->

@@ -1,11 +1,25 @@
 <div id="mySidenav" class="sidenav " >
     <a href="/index-en"><img src="{{"img/logo.png" | relURL }}" style="width: 190px; height: 40px; margin-top: -48px; "></a>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:20px; padding-top: 25px">&#9776;</a>
-    <a href="/platform-en" style="margin-top: 50px">On the platforms</a>
+    <a href="/platform-en" style="margin-top: 50px">The platforms</a>
     <a href="/blog">Blog</a>
     <a href="/faq-en">FAQ</a>
     <a href="/contactus-en">Contact</a>
-    <a href="#">STo login</a>
+    <a href="">Login</a>
+
+    <div class="dropdown" style="padding-left: 32px; padding-top: 10px">
+        <img onclick="myFunctionBtn_mobile()" class="dropbtn france_flag_language language_select" src="{{"img/france_flag.png" | relURL }}" >
+        <img onclick="myFunctionBtn_mobile()" class="dropbtn england_flag_language language_select" src="{{"img/england_flag.png" | relURL }}" >
+        <div id="myDropdown_mobile" class="dropdown-content">
+
+            <p style="margin-top: 10px" onclick="goToEnglish();">
+                <img class="language_select" style="margin-right: 20px" src="{{"img/england_flag.png" | relURL }}">English</p>
+            <p onclick="goToFrench();">
+                <img class="language_select" style="margin-right: 20px" src="{{"img/france_flag.png" | relURL }}" >français</p>
+
+        </div>
+    </div>
+
     <div style="text-align: center;margin-top: 230px">
         <a href="/contactus-en"> <button class="btn"  style="background-color: white; color: #F3A089">Request a demo</button></a>
     </div>
@@ -13,7 +27,7 @@
 </div>
 
 <div class="" id="main" style="margin-top: 10px;padding: 26px 52px 0 35px;">
-    <a href="/"> <img src="{{"img/logo.png" | relURL }}" style="  width: 150px;
+    <a href="/index-en"> <img src="{{"img/logo.png" | relURL }}" style="  width: 150px;
         height: 35px; margin-top: 0"></a>
 
     <span style="font-size:25px;cursor:pointer;float: right;margin-top: 3px;" onclick="openNav()"  >&#9776; </span>
@@ -44,7 +58,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link navbar_sub_link" href="/platform-en" style="font-weight: 700">On the platforms</a>
+                <a class="nav-link navbar_sub_link" href="/platform-en" style="font-weight: 700">The platforms</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link navbar_sub_link" href="/blog" style="font-weight: 700">Blog</a>
@@ -57,14 +71,24 @@
             </li>
         </ul>
 
+
+
+
         <div class="dropdown">
-        <img onclick="myFunctionBtn()" class="dropbtn" src="{{"img/england_flag.png" | relURL }}" id="language_select">
+            <img onclick="myFunctionBtn()" class="dropbtn france_flag_language language_select" src="{{"img/france_flag.png" | relURL }}" >
+            <img onclick="myFunctionBtn()" class="dropbtn england_flag_language language_select" src="{{"img/england_flag.png" | relURL }}" >
             <div id="myDropdown" class="dropdown-content">
-                <p style="margin-top: 10px" onclick="goToEnglish();">English</p>
-                <p onclick="goToFrench();">French</p>
+
+                <p style="margin-top: 10px" onclick="goToEnglish();">
+                    <img class="language_select" style="margin-right: 20px" src="{{"img/england_flag.png" | relURL }}">English</p>
+                <p onclick="goToFrench();">
+                    <img class="language_select" style="margin-right: 20px" src="{{"img/france_flag.png" | relURL }}">français</p>
 
             </div>
         </div>
+
+
+
         <script>
             function goToEnglish() {
 
@@ -188,17 +212,32 @@
         </script>
 
 
+        <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function myFunctionBtn_mobile() {
+                document.getElementById("myDropdown_mobile").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+
+
         <span class="navbar-text" id="nav_connect" >
-            <a class="navbar_sub_link" href="" style="font-weight: 700"> To login</a>
+            <a class="navbar_sub_link" href="" style="font-weight: 700">Login</a>
          </span>
-        <a href="/contactus-en"><button class="btn btn-dark" style=" background-color: #2D3446; font-size:12px; padding: 10 30px; font-weight: 600">Request a demo</button></a>
+        <a href="/contactus-en"><button class="btn btn-dark" style=" background-color: #2D3446; font-size:12px; padding: 10px 30px; font-weight: 600">Request a demo</button></a>
     </div>
 </nav>
-
-
-
-
-<!--<div style="text-align: center; height: 75px; padding:1px;   text-transform:capitalize; background-color:#42a5f5; color:white">-->
-<!--     <h1 style="margin-bottom:-10px; "><a style="text-decoration: none; color:white;"href="/">{{.Template}} Template - {{.Kind}}</a></h1>-->
-
-<!--</div>-->
